@@ -12,9 +12,7 @@
 </head>
 <body>
 
-<a href="${pageContext.request.contextPath}/hello">SpringMVC, I'm coming! </a><br>
-<a href="${pageContext.request.contextPath}/upload.jsp">上传文件 </a><br>
-<a href="${pageContext.request.contextPath}/downloadFile">下载文件 </a><br>
+<a href="${pageContext.request.contextPath}">hello web</a><br>
 
 
 </body>
