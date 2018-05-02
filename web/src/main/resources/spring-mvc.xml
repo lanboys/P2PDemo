@@ -16,7 +16,7 @@
     <!--<bean class="com.bing.lan.springMvc.AnnotationController"/>-->
 
     <!-- 开启注解扫描 -->
-    <context:component-scan base-package="com.bing.lan.springMvc"/>
+    <context:component-scan base-package="com.bing.lan"/>
 
     <!-- 添加对springMvc支持 否则注解方式失效 -->
     <mvc:annotation-driven/>
@@ -39,12 +39,12 @@
     </bean>
 
     <!-- 配置拦截器 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/*"/>
-            <bean class="com.bing.lan.springMvc._05_interceptor.MyHandlerInterceptor"/>
-        </mvc:interceptor>
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/*"/>-->
+            <!--<bean class="com.bing.lan.springMvc._05_interceptor.MyHandlerInterceptor"/>-->
+        <!--</mvc:interceptor>-->
 
-    </mvc:interceptors>
+    <!--</mvc:interceptors>-->
 
 </beans>

@@ -1,4 +1,4 @@
-package com.bing.lan.springMvc.domian;
+package com.bing.lan.web.domian;
 
 /**
  * Created by 蓝兵 on 2018/4/27.
