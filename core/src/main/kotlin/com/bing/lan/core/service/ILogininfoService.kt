@@ -4,7 +4,7 @@ package com.bing.lan.core.service
 interface ILogininfoService {
 
 
-    fun register()
+    fun register(username: String, password: String)
 
 
 }
