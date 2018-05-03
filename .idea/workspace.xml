@@ -7,283 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b80e4a6-65d2-4aaa-afab-32e7b7de0811" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/lanbing.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/ServiceRuntimeException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/BaseController.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/domian/ResultJSON.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/css/account.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/css/core.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/add.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/bank_list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/banner01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/banner02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/baozhan.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/dtg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/example.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/feature01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/feature02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/feature03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/person_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/phone2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/sequare.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/shiming.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/shouji.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/sina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/social-icons-set.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/tecent.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/txwb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/upload_source_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/upload_source_2_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/wx.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/wxsm.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/xlwb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/images/youxiang.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/My97DatePicker.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/WdatePicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/lang/en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/default/img.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/bootstrap-3.3.2-dist/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery.bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery/jquery-2.1.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/jquery/jquery-2.1.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/metisMenu/metisMenu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/metisMenu/metisMenu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins-override.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/css/bootstrap-datetimepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/MIT-LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/flipcountdown.jquery.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/am-pm-1.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-lg-dark.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-lg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-lg.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-md.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-sm.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/img/digit-xs.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/jquery.flipcountdown.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/jquery.flipcountdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/screen/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/flipcountdown/screen/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/ajaxSubmit-intergration-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/captcha.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/fonts/Anorexia.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/image_req.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/image.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/newsession.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/process.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/rand.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/captcha/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/chili.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/cmxform.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/cmxformTemplate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/core.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/css/screen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/custom-messages-data-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/custom-methods-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/dynamic-totals.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/errorcontainer-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/file_input.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/form.phps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/checked.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/cmxform-divider.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/cmxform-fieldset.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/images/unchecked.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/jquerymobile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/js/chili-1.7.pack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/images/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/images/header1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/images/page.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/images/required_star.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/login/screen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/emails.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/emails.phps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/ie6.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/backRequiredGray.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/back_green-fade.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/back_nav_blue.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/button-submit.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/help.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/left-nav-callout-long.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/login-sprite.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/logo_marketo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/sf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step1-24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step2-24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step3-24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/tab-sprite.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/tab_green.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/time.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/toggle.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/warning.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/jquery.maskedinput.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/mktSignup.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/step2.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/marketo/stylesheet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/emails.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/emails.phps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/left_white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/milk.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/milk.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/right_white.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/users.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/milk/users.phps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/multipart/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/jquery.maskedinput-1.0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/ui.accordion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/ui.core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/multipart/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/radio-checkbox-select-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tabs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/themerollered.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/editor_template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/img/icons.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/langs/en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/tiny_mce.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/jquery.validate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.6.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.7.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.8.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.9.0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery.mockjax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/localization/messages_zh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery.twbsPagination.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/uploadify/jquery.uploadify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/uploadify/jquery.uploadify.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/uploadify/uploadify-cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/js/plugins/uploadify/uploadify.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/05846ac2-9b2f-4ce5-beca-22eabb7abc3a.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/103b981c-c4c5-445a-90a3-bb5b7d354d00.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/116190c9-9656-48b7-a2e4-ab8948369a72.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/159bb4e6-a44d-40ba-b92e-47e0a49686b8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/1c60b318-61e2-4e08-a0d1-d347e83dad0e.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/1dd58f8e-8fdc-4aa8-9e4c-a888aaf2aa22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/20be119e-edd5-488d-9973-2c985445dd49.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/2a626018-6853-46fd-9e72-41a4bec19847.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/3684c7fd-5926-4365-8522-71b755ffb860.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/3ba3877a-2e1c-4968-8667-2362f2da7da2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/3e632898-1413-4240-a043-a017ab30ea3b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/44a45e2c-f3b0-45dd-ae70-63d0baa96c00.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/635b71b4-13b5-4347-906a-492c4f30749d.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/68c6990a-6839-4c76-a6ff-1077487bff67.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/7181348d-54ed-400b-a924-9f9aaba86ef3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/725d9bc9-7101-4332-81b4-2b3a18785127.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/7266fe0a-70e9-49fe-8c22-238952e2e45d.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/8159cf26-a71d-4367-a750-c93cf6f5fe3d.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/848a9f69-1228-44d6-904b-9e2641431fa7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/8607bb58-5fd9-499f-a28b-d87449bbb0db.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/8b39478c-a358-4c0a-a46e-9651c7219ebc.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/8efc4cae-41ff-4524-ade5-4cab15573b1e.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/90e55b8d-4f20-400f-9caf-a2668610e86b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/9749a427-38d1-4d34-b9ef-65e02020962b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/9cb61e08-948f-4be2-b1af-9a7347712352.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/9ec60417-2740-4e0e-9624-8f5681c4412f.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/a67cb5e4-72ad-4723-afe6-0316d7574eaa.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/a82ccb68-e930-4ca7-8264-3e9014741676.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/a9aaf1d6-9a9c-4b28-8ac7-82862c45cacc.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/afccd763-67c6-4276-b3d8-cfd1b4785925.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/b3692cd3-7a38-4838-ae82-836a81af820e.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/c7173c02-e627-401d-8a92-b8dac96fabeb.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/d49a0317-9abb-4f90-b82a-0284459ba7ad.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/d903adea-036d-4e48-8ed9-3f77748ea3d4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/dea8bc93-bff3-4174-aff3-30103ebb31bc.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/e3ed6179-d370-4a2b-ac02-c8aa52de4a63.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/eca34adf-bf1f-4759-a75a-4a33ef9f99de.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/f2648585-2130-421a-956c-37528c1b873a.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/f35f0ab7-4f72-40aa-96ff-017a49a43242.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/fb589117-2fb2-4f3a-822d-4077abe6ee66.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/upload/fbf50095-d4fa-427a-8696-4eb1bd5508cd.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/P2P.iml" afterPath="$PROJECT_DIR$/P2P.iml" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/mapper/LogininfoMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/mapper/LogininfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/register.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/register.html" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
@@ -342,8 +68,8 @@
       <file leaf-file-name="RegisterController.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="384">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -469,7 +195,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-104" />
     <option name="y" value="10" />
-    <option name="width" value="1616" />
+    <option name="width" value="1268" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -490,6 +216,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -601,25 +331,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lan" type="462c0819:PsiDirectoryNode" />
-              <item name="domian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -672,10 +383,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -689,7 +396,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo_workspace/IDEA/KotlinDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinancialCalculator" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
@@ -926,11 +633,12 @@
       <workItem from="1524878249179" duration="12482000" />
       <workItem from="1525269556894" duration="6476000" />
       <workItem from="1525328824341" duration="13255000" />
+      <workItem from="1525357607625" duration="4110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43305000" />
+    <option name="totallyTimeSpent" value="47415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,11 +650,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060311284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -956,18 +665,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5465288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54556805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.00863132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0088626295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24124514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25811687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -978,6 +686,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07198443" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -991,7 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/target/tomcat/conf/tomcat-users.xml" />
     <entry file="file://$PROJECT_DIR$/core/core.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1056,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,29 +1260,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/mapper/LogininfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525341227408" expanded="true" signature="634:692" ph="delete from logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="824:986" ph="insert into logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="1089:1278" ph="update logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="1387:1479" ph="select id, u... logininfo" />
-            <marker date="1525341227408" expanded="true" signature="1548:1603" ph="select id, u... logininfo" />
-            <marker date="1525341227408" expanded="true" signature="2042:2100" ph="delete from logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="2233:2395" ph="insert into logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="2499:2688" ph="update logininfo... " />
-            <marker date="1525341227408" expanded="true" signature="2797:2889" ph="select id, u... logininfo" />
-            <marker date="1525341227408" expanded="true" signature="2958:3013" ph="select id, u... logininfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/mapper/LogininfoMapper.xml" />
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1588,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,44 +1283,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java.1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java.1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/760b3b0/3ed0868b-1a71-4e50-a426-9a052ab48226/p2p.logininfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Android/jdk1.8.0_102/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1628#1629#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java.1" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java.1" />
+    <entry file="das://table:/760b3b0/3ed0868b-1a71-4e50-a426-9a052ab48226/p2p.logininfo" />
+    <entry file="jar://D:/Android/jdk1.8.0_102/src.zip!/java/lang/RuntimeException.java" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/ServiceRuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1649,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,14 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <marker date="1525334276734" expanded="true" signature="662:724" ph="DELETE FROM logininfo... " />
-            <marker date="1525334276734" expanded="true" signature="876:1062" ph="INSERT INTO logininfo... " />
-            <marker date="1525334276734" expanded="true" signature="1173:1385" ph="UPDATE logininfo... " />
-            <marker date="1525334276734" expanded="true" signature="1502:1650" ph="SELECT id, u... logininfo" />
-            <marker date="1525334276734" expanded="true" signature="1727:1834" ph="SELECT id, u... logininfo" />
-            <marker date="1525334276734" expanded="true" signature="1916:1992" ph="SELECT count... logininfo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1700,30 +1347,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/domian/ResultJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/domian/ResultJSON.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1732,22 +1358,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/BaseController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/RegisterController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/BaseController.class" />
+    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/RegisterController.class" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1760,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,42 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="367" column="12" lean-forward="false" selection-start-line="367" selection-start-column="12" selection-end-line="367" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3573#3579#0" expanded="false" />
-            <element signature="e#4387#4393#0" expanded="false" />
-            <element signature="e#4393#4399#0" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4814#4820#0" expanded="false" />
-            <element signature="e#4858#4864#0" expanded="false" />
-            <element signature="e#4864#4870#0" expanded="false" />
-            <element signature="e#4872#4878#0" expanded="false" />
-            <element signature="e#4921#4927#0" expanded="false" />
-            <element signature="e#4927#4933#0" expanded="false" />
-            <element signature="e#4948#4954#0" expanded="false" />
-            <element signature="e#4954#4960#0" expanded="false" />
-            <element signature="e#4980#4986#0" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#p#4;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1839,10 +1414,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/js/plugins/jquery-validation/lib/jquery.form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="730" column="32" lean-forward="true" selection-start-line="730" selection-start-column="32" selection-end-line="730" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="384">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding />
         </state>
       </provider>

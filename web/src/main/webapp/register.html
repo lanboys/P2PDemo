@@ -29,8 +29,11 @@
     </style>
     <script type="text/javascript">
 
-
         $(function () {
+            // 方式一：取代系统默认跳转提交
+            // $("#registerForm").ajaxForm(function (data) {
+            //     console.debug(data)
+            // })
 
             $("#registerForm").validate({
                 rules: {
@@ -43,7 +46,7 @@
                         rangelength: [4, 16]
                     },
                     "confirmPwd": {
-                        equalTo: "#passowrd"
+                        equalTo: "#password"
                     }
                 },
                 messages: {
@@ -58,7 +61,25 @@
                     "confirmPwd": {
                         equalTo: "两次输入的密码不一致！"
                     }
+                },
+
+                submitHandler: function (form) {
+                    $(form).ajaxSubmit(function (data) {
+                        console.debug(data)
+                    })
+                    // 不可行
+                    // $("#registerForm").ajaxForm(function (data) {
+                    //     console.debug(data)
+                    // })
+                },
+                errorClass: "text-danger",
+                highlight: function (element, errorClass) {
+                    $(element).closest(".form-group").addClass("has-error")
+                },
+                unhighlight: function (element, errorClass) {
+                    $(element).closest(".form-group").removeClass("has-error")
                 }
+
             });
         });
     </script>
