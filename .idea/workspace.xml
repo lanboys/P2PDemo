@@ -2,72 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b80e4a6-65d2-4aaa-afab-32e7b7de0811" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/3ed0868b-1a71-4e50-a426-9a052ab48226.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/applicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/mapper/LogininfoMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/P2P.iml" afterPath="$PROJECT_DIR$/P2P.iml" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
       <change beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/bing/lan/springMvc/domian/User.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/bing/lan/web/domian/User.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/web/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/web/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/core/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/core/${project.build.directory}/test-classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            <state relative-caret-position="252">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -110,6 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -117,6 +83,8 @@
     <findStrings>
       <find>&lt;version&gt;</find>
       <find>&gt;&lt;/property&gt;</find>
+      <find>log</find>
+      <find>log4</find>
     </findStrings>
     <replaceStrings>
       <replace>/&gt;</replace>
@@ -144,14 +112,21 @@
         <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/bing/lan/web/domian/User.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/core/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/core/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/core/src/main/resources/spring-mybitis.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/ILogininfoService.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/co.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" />
       </list>
     </option>
   </component>
@@ -177,28 +152,41 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="345" />
-    <option name="y" value="48" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,7 +274,7 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -295,51 +282,36 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,6 +320,7 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +334,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo_workspace/IDEA/KotlinDemo" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
@@ -521,11 +494,12 @@
       <workItem from="1524826710591" duration="22000" />
       <workItem from="1524878249179" duration="12482000" />
       <workItem from="1525269556894" duration="6476000" />
+      <workItem from="1525328824341" duration="822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20414000" />
+    <option name="totallyTimeSpent" value="30872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,41 +511,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11417749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114137486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5622688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2711039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27561608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07198443" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,13 +573,7 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/java/springMvc/_02_anntation/AnnotationController.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/springMvc/_05_interceptor/MyHandlerInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bing/lan/springMvc/_01_implement/HelloMvcController.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bing/lan/springMvc/domian/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bing/lan/springMvc/domian/User.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/web/upload.jsp" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -625,13 +592,6 @@
     <entry file="file://$PROJECT_DIR$/web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" />
     <entry file="file://$PROJECT_DIR$/web/target/tomcat/conf/web.xml" />
     <entry file="file://$PROJECT_DIR$/web/target/tomcat/conf/tomcat-users.xml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/core.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,9 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/bootstrap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -651,93 +610,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/springMvc/domian/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ed0868b-1a71-4e50-a426-9a052ab48226/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/springMvc/domian/User.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ed0868b-1a71-4e50-a426-9a052ab48226/console.sql" />
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/mapper/LogininfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <marker date="1525273742606" expanded="true" signature="634:692" ph="delete from logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="824:986" ph="insert into logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="1089:1278" ph="update logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="1387:1479" ph="select id, u... logininfo" />
-            <marker date="1525273742606" expanded="true" signature="1548:1603" ph="select id, u... logininfo" />
-            <marker date="1525273742606" expanded="true" signature="2042:2100" ph="delete from logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="2233:2395" ph="insert into logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="2499:2688" ph="update logininfo... " />
-            <marker date="1525273742606" expanded="true" signature="2797:2889" ph="select id, u... logininfo" />
-            <marker date="1525273742606" expanded="true" signature="2958:3013" ph="select id, u... logininfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/dispatcher-servlet.xml" />
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -750,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="48" column="61" lean-forward="false" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,6 +707,559 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.bing.lan:parent:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.bing.lan:parent:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="103.5" y="176.0">com.bing.lan:parent:1.0-SNAPSHOT</node>
+            <node x="162.0" y="88.0">org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10</node>
+            <node x="161.0" y="0.0">org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10/org.jetbrains:annotations:jar:13.0</node>
+            <node x="36.5" y="88.0">junit:junit:jar:4.11</node>
+            <node x="0.0" y="0.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.bing.lan:parent:1.0-SNAPSHOT" target="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10">
+              <point x="21.25" y="-19.0" />
+              <point x="167.25" y="151.0" />
+              <point x="221.5" y="151.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:parent:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+              <point x="-21.25" y="-19.0" />
+              <point x="124.75" y="151.0" />
+              <point x="70.5" y="151.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10" target="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10/org.jetbrains:annotations:jar:13.0">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="107.0" />
+          <SelectedNodes>
+            <node>junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node>com.bing.lan:parent:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.bing.lan:core:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.bing.lan:core:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="1309.8926192802476" y="806.0">com.bing.lan:core:1.0-SNAPSHOT</node>
+            <node x="865.4166666666665" y="88.0">org.springframework:spring-core:jar:4.0.2.RELEASE</node>
+            <node x="842.9166666666665" y="0.0">org.springframework:spring-core:jar:4.0.2.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="704.2005699397482" y="520.0">org.springframework:spring-web:jar:4.0.2.RELEASE</node>
+            <node x="903.5389594528588" y="216.0">org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE</node>
+            <node x="740.0416666666665" y="422.0">org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE</node>
+            <node x="1587.6666666666665" y="324.0">org.springframework:spring-oxm:jar:4.0.2.RELEASE</node>
+            <node x="1192.5176192802476" y="324.0">org.springframework:spring-tx:jar:4.0.2.RELEASE</node>
+            <node x="1294.6666666666665" y="422.0">org.springframework:spring-jdbc:jar:4.0.2.RELEASE</node>
+            <node x="660.7005699397482" y="618.0">org.springframework:spring-webmvc:jar:4.0.2.RELEASE</node>
+            <node x="475.9999999999998" y="324.0">org.springframework:spring-webmvc:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE</node>
+            <node x="668.2499999999998" y="324.0">org.springframework:spring-aop:jar:4.0.2.RELEASE</node>
+            <node x="672.5389594528588" y="216.0">org.springframework:spring-aop:jar:4.0.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="922.6666666666665" y="520.0">org.springframework:spring-context-support:jar:4.0.2.RELEASE</node>
+            <node x="221.0" y="216.0">org.springframework:spring-test:jar:4.0.2.RELEASE</node>
+            <node x="1364.1666666666665" y="618.0">org.mybatis:mybatis:jar:3.2.6</node>
+            <node x="124.5" y="618.0">org.mybatis:mybatis-spring:jar:1.2.2</node>
+            <node x="2175.4166666666665" y="618.0">mysql:mysql-connector-java:jar:5.1.30</node>
+            <node x="2382.4166666666665" y="618.0">commons-dbcp:commons-dbcp:jar:1.2.2</node>
+            <node x="2384.9166666666665" y="520.0">commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3</node>
+            <node x="1807.1666666666665" y="618.0">jstl:jstl:jar:1.2</node>
+            <node x="2060.4166666666665" y="618.0">com.alibaba:fastjson:jar:1.1.41</node>
+            <node x="1805.4166666666665" y="520.0">org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="1663.1666666666665" y="618.0">org.slf4j:slf4j-log4j12:jar:1.7.7</node>
+            <node x="1657.1666666666665" y="520.0">org.slf4j:slf4j-log4j12:jar:1.7.7/log4j:log4j:jar:1.2.17</node>
+            <node x="288.5" y="618.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="300.0" y="520.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="1138.6666666666665" y="618.0">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="1216.1666666666665" y="520.0">commons-io:commons-io:jar:2.4</node>
+            <node x="1479.1666666666665" y="618.0">commons-codec:commons-codec:jar:1.9</node>
+            <node x="1921.4166666666665" y="618.0">org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10</node>
+            <node x="1920.4166666666665" y="520.0">org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10/org.jetbrains:annotations:jar:13.0</node>
+            <node x="36.5" y="618.0">junit:junit:jar:4.11</node>
+            <node x="0.0" y="520.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="org.slf4j:slf4j-log4j12:jar:1.7.7/log4j:log4j:jar:1.2.17">
+              <point x="-31.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.0.2.RELEASE">
+              <point x="-15.652173913043498" y="-19.0" />
+              <point x="1330.240445367204" y="726.0" />
+              <point x="817.2005699397482" y="726.0" />
+              <point x="817.2005699397482" y="578.0" />
+              <point x="792.7005699397482" y="578.0" />
+              <point x="29.5" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="1020.1666666666665" y="304.0" />
+              <point x="977.7889594528588" y="304.0" />
+              <point x="8.25" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="-38.666666666666515" y="-19.0" />
+              <point x="687.5833333333333" y="304.0" />
+              <point x="662.0389594528588" y="304.0" />
+              <point x="662.0389594528588" y="186.0" />
+              <point x="910.4166666666665" y="186.0" />
+              <point x="-15.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.2">
+              <point x="-31.304347826086996" y="-19.0" />
+              <point x="1314.5882714541606" y="776.0" />
+              <point x="196.0" y="776.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10">
+              <point x="21.913043478260988" y="-19.0" />
+              <point x="1367.8056627585086" y="746.0" />
+              <point x="1980.9166666666665" y="746.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="-39.33333333333334" y="-19.0" />
+              <point x="1314.333333333333" y="392.0" />
+              <point x="1151.2676192802476" y="392.0" />
+              <point x="1151.2676192802476" y="294.0" />
+              <point x="994.2889594528588" y="294.0" />
+              <point x="24.75" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="558.4999999999998" y="166.0" />
+              <point x="890.4166666666665" y="166.0" />
+              <point x="-35.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="-25.0" y="-19.0" />
+              <point x="1217.5176192802476" y="284.0" />
+              <point x="1010.7889594528588" y="284.0" />
+              <point x="41.25" y="19.0" />
+            </edge>
+            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.0.2.RELEASE">
+              <point x="-18.782608695652243" y="-19.0" />
+              <point x="1327.1100105845953" y="736.0" />
+              <point x="733.7005699397482" y="736.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.0.2.RELEASE">
+              <point x="-9.391304347826008" y="-19.0" />
+              <point x="1336.5013149324216" y="706.0" />
+              <point x="1128.1666666666665" y="706.0" />
+              <point x="1128.1666666666665" y="402.0" />
+              <point x="1217.5176192802476" y="402.0" />
+              <point x="-25.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="969.5389594528588" y="196.0" />
+              <point x="930.4166666666665" y="196.0" />
+              <point x="5.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.4">
+              <point x="-3.130434782608745" y="-19.0" />
+              <point x="1342.7621844976388" y="686.0" />
+              <point x="1330.1666666666665" y="686.0" />
+              <point x="1330.1666666666665" y="598.0" />
+              <point x="1311.4166666666665" y="598.0" />
+              <point x="31.75" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE">
+              <point x="-51.74999999999977" y="-19.0" />
+              <point x="757.2916666666667" y="392.0" />
+              <point x="599.7499999999998" y="392.0" />
+              <point x="41.25" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="25.0" y="-19.0" />
+              <point x="1267.5176192802476" y="186.0" />
+              <point x="940.4166666666665" y="186.0" />
+              <point x="15.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE" target="org.springframework:spring-aop:jar:4.0.2.RELEASE">
+              <point x="-17.249999999999773" y="-19.0" />
+              <point x="791.7916666666667" y="402.0" />
+              <point x="764.9166666666663" y="402.0" />
+              <point x="38.666666666666515" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE">
+              <point x="-65.0" y="-19.0" />
+              <point x="955.1666666666665" y="480.0" />
+              <point x="855.0416666666665" y="480.0" />
+              <point x="46.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.2.RELEASE" target="org.springframework:spring-aop:jar:4.0.2.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="-19.0" />
+              <point x="726.2499999999998" y="304.0" />
+              <point x="733.0389594528588" y="304.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.7">
+              <point x="18.782608695652243" y="-19.0" />
+              <point x="1364.6752279758998" y="736.0" />
+              <point x="1876.6666666666665" y="736.0" />
+              <point x="23.75" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.0.2.RELEASE">
+              <point x="-21.91304347826076" y="-19.0" />
+              <point x="1323.9795758019868" y="746.0" />
+              <point x="569.9505699397482" y="746.0" />
+              <point x="569.9505699397482" y="402.0" />
+              <point x="687.5833333333333" y="402.0" />
+              <point x="-38.666666666666515" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE" target="org.springframework:spring-aop:jar:4.0.2.RELEASE">
+              <point x="-14.75" y="-19.0" />
+              <point x="748.4505699397482" y="500.0" />
+              <point x="726.2499999999998" y="500.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.30">
+              <point x="31.304347826086996" y="-19.0" />
+              <point x="1377.1969671063346" y="776.0" />
+              <point x="2268.9166666666665" y="776.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+              <point x="-34.43478260869574" y="-19.0" />
+              <point x="1311.4578366715518" y="786.0" />
+              <point x="70.5" y="786.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="65.0" y="-19.0" />
+              <point x="1085.1666666666665" y="500.0" />
+              <point x="1927.7676192802476" y="500.0" />
+              <point x="1927.7676192802476" y="156.0" />
+              <point x="970.4166666666665" y="156.0" />
+              <point x="45.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.0.2.RELEASE">
+              <point x="-12.521739130434753" y="-19.0" />
+              <point x="1333.3708801498128" y="716.0" />
+              <point x="1020.1666666666665" y="716.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="-44.25" y="-19.0" />
+              <point x="718.9505699397482" y="500.0" />
+              <point x="651.4999999999998" y="500.0" />
+              <point x="651.4999999999998" y="176.0" />
+              <point x="900.4166666666665" y="176.0" />
+              <point x="-25.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE">
+              <point x="29.199999999999818" y="-19.0" />
+              <point x="762.900569939748" y="588.0" />
+              <point x="853.1172366064148" y="588.0" />
+              <point x="853.1172366064148" y="490.0" />
+              <point x="809.0416666666665" y="490.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.0.2.RELEASE">
+              <point x="9.391304347826008" y="-19.0" />
+              <point x="1355.2839236280736" y="706.0" />
+              <point x="1646.6666666666665" y="706.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.2.RELEASE">
+              <point x="-28.17391304347825" y="-19.0" />
+              <point x="1317.7187062367693" y="766.0" />
+              <point x="278.0" y="766.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE/commons-logging:commons-logging:jar:1.1.3">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="1345.8926192802476" y="676.0" />
+              <point x="1353.6666666666665" y="676.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.1">
+              <point x="-6.26086956521749" y="-19.0" />
+              <point x="1339.63174971503" y="696.0" />
+              <point x="1229.1666666666665" y="696.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.7">
+              <point x="12.521739130434753" y="-19.0" />
+              <point x="1358.4143584106823" y="716.0" />
+              <point x="1725.1666666666665" y="716.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="29.5" y="-19.0" />
+              <point x="1676.1666666666665" y="166.0" />
+              <point x="960.4166666666665" y="166.0" />
+              <point x="35.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="-29.5" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="58.40000000000009" y="-19.0" />
+              <point x="792.1005699397483" y="598.0" />
+              <point x="912.1666666666665" y="598.0" />
+              <point x="912.1666666666665" y="304.0" />
+              <point x="961.2889594528588" y="304.0" />
+              <point x="-8.25" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="-29.5" y="-19.0" />
+              <point x="1617.1666666666665" y="274.0" />
+              <point x="1027.2889594528588" y="274.0" />
+              <point x="57.75" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.2.2">
+              <point x="34.43478260869574" y="-19.0" />
+              <point x="1380.3274018889433" y="786.0" />
+              <point x="2456.9166666666665" y="786.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13">
+              <point x="-25.043478260869506" y="-19.0" />
+              <point x="1320.849141019378" y="756.0" />
+              <point x="377.5" y="756.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.2.RELEASE/org.springframework:spring-expression:jar:4.0.2.RELEASE">
+              <point x="-29.200000000000045" y="-19.0" />
+              <point x="704.5005699397482" y="588.0" />
+              <point x="517.2499999999998" y="588.0" />
+              <point x="-41.25" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.1.41">
+              <point x="25.043478260869506" y="-19.0" />
+              <point x="1370.936097541117" y="756.0" />
+              <point x="2107.4166666666665" y="756.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.2.RELEASE" target="org.springframework:spring-tx:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="1353.6666666666665" y="382.0" />
+              <point x="1267.5176192802476" y="382.0" />
+              <point x="25.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="39.333333333333314" y="-19.0" />
+              <point x="1392.9999999999998" y="402.0" />
+              <point x="1414.1666666666665" y="402.0" />
+              <point x="1414.1666666666665" y="176.0" />
+              <point x="950.4166666666665" y="176.0" />
+              <point x="25.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="51.75000000000023" y="-19.0" />
+              <point x="860.7916666666667" y="402.0" />
+              <point x="856.3953264940553" y="402.0" />
+              <point x="856.3953264940553" y="284.0" />
+              <point x="928.2889594528588" y="284.0" />
+              <point x="-41.25" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="44.25" y="-19.0" />
+              <point x="807.4505699397482" y="500.0" />
+              <point x="888.5416666666665" y="500.0" />
+              <point x="888.5416666666665" y="294.0" />
+              <point x="944.7889594528588" y="294.0" />
+              <point x="-24.75" y="19.0" />
+            </edge>
+            <edge source="commons-dbcp:commons-dbcp:jar:1.2.2" target="commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="commons-fileupload:commons-fileupload:jar:1.3.1" target="commons-io:commons-io:jar:2.4">
+              <point x="0.0" y="-19.0" />
+              <point x="1229.1666666666665" y="598.0" />
+              <point x="1247.9166666666665" y="598.0" />
+              <point x="-31.75" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="28.17391304347825" y="-19.0" />
+              <point x="1374.0665323237258" y="766.0" />
+              <point x="2164.9166666666665" y="766.0" />
+              <point x="2164.9166666666665" y="146.0" />
+              <point x="980.4166666666665" y="146.0" />
+              <point x="55.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
+              <point x="3.130434782608745" y="-19.0" />
+              <point x="1349.0230540628563" y="686.0" />
+              <point x="1411.6666666666665" y="686.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="0.0" y="-19.0" />
+              <point x="278.0" y="146.0" />
+              <point x="870.4166666666665" y="146.0" />
+              <point x="-55.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="-58.40000000000009" y="-19.0" />
+              <point x="675.3005699397481" y="598.0" />
+              <point x="465.4999999999998" y="598.0" />
+              <point x="465.4999999999998" y="156.0" />
+              <point x="880.4166666666665" y="156.0" />
+              <point x="-45.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE">
+              <point x="14.75" y="-19.0" />
+              <point x="777.9505699397482" y="500.0" />
+              <point x="763.0416666666665" y="500.0" />
+              <point x="-46.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+              <point x="15.652173913043498" y="-19.0" />
+              <point x="1361.544793193291" y="726.0" />
+              <point x="1836.6666666666665" y="726.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="com.bing.lan:core:1.0-SNAPSHOT" target="commons-codec:commons-codec:jar:1.9">
+              <point x="6.26086956521749" y="-19.0" />
+              <point x="1352.153488845465" y="696.0" />
+              <point x="1557.6666666666665" y="696.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="org.slf4j:slf4j-api:jar:1.7.7">
+              <point x="31.0" y="-19.0" />
+              <point x="1756.1666666666665" y="598.0" />
+              <point x="1829.1666666666665" y="598.0" />
+              <point x="-23.75" y="19.0" />
+            </edge>
+            <edge source="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10" target="org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10/org.jetbrains:annotations:jar:13.0">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-context:jar:4.0.2.RELEASE" target="org.springframework:spring-core:jar:4.0.2.RELEASE">
+              <point x="17.250000000000227" y="-19.0" />
+              <point x="826.2916666666667" y="402.0" />
+              <point x="838.0416666666667" y="402.0" />
+              <point x="838.0416666666667" y="196.0" />
+              <point x="920.4166666666665" y="196.0" />
+              <point x="-5.0" y="19.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.0.2.RELEASE" target="org.springframework:spring-web:jar:4.0.2.RELEASE/org.springframework:spring-beans:jar:4.0.2.RELEASE">
+              <point x="38.666666666666515" y="-19.0" />
+              <point x="764.9166666666663" y="274.0" />
+              <point x="911.7889594528588" y="274.0" />
+              <point x="-57.75" y="19.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.25544554455445545" x="2284.0" y="417.0" />
+          <SelectedNodes>
+            <node>junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node>com.bing.lan:core:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="190" column="0" lean-forward="true" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/co.kt" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/domain/Logininfo.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/ILogininfoService.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>

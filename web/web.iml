@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="AutoImportedSourceRoots">
+    <option name="directories">
+      <list>
+        <option value="E:\workspace\IDEA_workspace\P2PDemo\web/src/main/java" />
+        <option value="E:\workspace\IDEA_workspace\P2PDemo\web/src/main/kotlin" />
+        <option value="E:\workspace\IDEA_workspace\P2PDemo\web/src/test/java" />
+        <option value="E:\workspace\IDEA_workspace\P2PDemo\web/src/test/kotlin" />
+      </list>
+    </option>
+  </component>
   <component name="FacetManager">
     <facet type="web" name="Web">
       <configuration>
@@ -18,14 +28,31 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/${project.build.directory}/test-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -47,25 +74,22 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-test:4.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.2.6" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.2" level="project" />
-    <orderEntry type="library" name="Maven: javax:javaee-api:7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.30" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.3" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.15" level="project" />
-    <orderEntry type="library" name="Maven: javax.mail:mail:1.4" level="project" />
-    <orderEntry type="library" name="Maven: javax.jms:jms:1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jdmk:jmxtools:1.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jmx:jmxri:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.41" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
