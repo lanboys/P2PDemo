@@ -6,5 +6,7 @@ interface ILogininfoService {
 
     fun register(username: String, password: String)
 
+    fun checkUsername(username: String): Boolean
+
 
 }
