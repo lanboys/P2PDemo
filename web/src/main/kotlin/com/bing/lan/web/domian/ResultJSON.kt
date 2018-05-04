@@ -7,7 +7,7 @@ open class ResultJSON() {
 
     var success: Boolean = false
 
-    var msg: String = ""
+    var msg: String? = null
 
 
     constructor(success: Boolean, msg: String) : this() {

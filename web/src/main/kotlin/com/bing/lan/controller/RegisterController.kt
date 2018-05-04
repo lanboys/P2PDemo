@@ -34,4 +34,10 @@ open class RegisterController : BaseController() {
     }
 
 
+    @RequestMapping("/checkUsername")
+    @ResponseBody
+    fun checkUsername(username: String): Boolean {
+        return true
+    }
+
 }

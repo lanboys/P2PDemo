@@ -65,10 +65,10 @@
             <artifactId>mybatis-spring</artifactId>
         </dependency>
         <!-- 导入java ee jar 包 -->
-        <!--<dependency>-->
-        <!--<groupId>javax</groupId>-->
-        <!--<artifactId>javaee-api</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+        <groupId>javax</groupId>
+        <artifactId>javaee-api</artifactId>
+        </dependency>
         <!-- 导入Mysql数据库链接jar包 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -85,11 +85,11 @@
             <artifactId>jstl</artifactId>
         </dependency>
         <!-- 日志文件管理包 -->
-        <!-- log start -->
-        <!--<dependency>-->
-        <!--<groupId>log4j</groupId>-->
-        <!--<artifactId>log4j</artifactId>-->
-        <!--</dependency>-->
+         <!--log start -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
         <!-- 格式化对象，方便输出日志 -->
         <dependency>
             <groupId>com.alibaba</groupId>

@@ -48,22 +48,22 @@
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
 
-    <!-- 编码过滤器 -->
-    <filter>
+    <!--&lt;!&ndash; 编码过滤器 &ndash;&gt;-->
+    <!--<filter>-->
 
-        <filter-name>encodingFilter</filter-name>
-        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <!--<filter-name>encodingFilter</filter-name>-->
+    <!--<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>-->
 
-        <init-param>
-            <param-name>encoding</param-name>
-            <param-value>utf-8</param-value>
-        </init-param>
-    </filter>
+    <!--<init-param>-->
+    <!--<param-name>encoding</param-name>-->
+    <!--<param-value>utf-8</param-value>-->
+    <!--</init-param>-->
+    <!--</filter>-->
 
-    <filter-mapping>
-        <filter-name>encodingFilter</filter-name>
-        <url-pattern>*.do</url-pattern>
-    </filter-mapping>
+    <!--<filter-mapping>-->
+    <!--<filter-name>encodingFilter</filter-name>-->
+    <!--<url-pattern>*.do</url-pattern>-->
+    <!--</filter-mapping>-->
 
     <!-- 默认页面 -->
     <welcome-file-list>

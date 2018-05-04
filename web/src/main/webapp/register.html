@@ -39,7 +39,12 @@
                 rules: {
                     "username": {
                         required: true,
-                        rangelength: [4, 16]
+                        rangelength: [4, 16],
+                        // remote:"/checkUsername.do"
+                        remote:{
+                            url:"checkUsername.do",
+                            type:"post",
+                        }
                     },
                     "password": {
                         required: true,
@@ -52,7 +57,8 @@
                 messages: {
                     "username": {
                         required: "请填写用户名哦",
-                        rangelength: "用户名的长度在{0}到{1}之间"
+                        rangelength: "用户名的长度在{0}到{1}之间",
+                        remote:"用户名已经存在"
                     },
                     "password": {
                         required: "请填写密码",

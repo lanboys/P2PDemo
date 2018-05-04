@@ -12,6 +12,7 @@
 </head>
 <body>
 
+index.jsp页面
 <a href="${pageContext.request.contextPath}">hello web</a><br>
 
 

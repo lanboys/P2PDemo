@@ -21,8 +21,8 @@
         <!-- mybatis版本号 -->
         <mybatis.version>3.2.6</mybatis.version>
         <!-- log4j日志文件管理包版本 -->
-        <slf4j.version>1.7.7</slf4j.version>
-        <log4j.version>1.2.15</log4j.version>
+        <slf4j.version>RELEASE</slf4j.version>
+        <log4j.version>RELEASE</log4j.version>
 
         <kotlin.version>1.2.10</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
@@ -135,12 +135,12 @@
                 <version>1.2</version>
             </dependency>
             <!-- 日志文件管理包 -->
-            <!-- log start -->
-            <!--<dependency>-->
-            <!--<groupId>log4j</groupId>-->
-            <!--<artifactId>log4j</artifactId>-->
-            <!--<version>${log4j.version}</version>-->
-            <!--</dependency>-->
+             <!--log start -->
+            <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>RELEASE</version>
+            </dependency>
             <!-- 格式化对象，方便输出日志 -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -150,12 +150,12 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>${slf4j.version}</version>
+                <version>1.7.25</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
-                <version>${slf4j.version}</version>
+                <version>1.7.25</version>
             </dependency>
             <!-- log end -->
             <!-- 映入JSON -->

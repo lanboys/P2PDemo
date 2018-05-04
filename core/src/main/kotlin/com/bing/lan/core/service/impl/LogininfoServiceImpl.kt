@@ -13,16 +13,16 @@ import org.springframework.stereotype.Service
 @Service("logininfoService")
 open class LogininfoServiceImpl : ILogininfoService {
 
-    @Autowired(required = false)
-    var logininfoMapper: LogininfoMapper? = null
+    @Autowired
+    lateinit var logininfoMapper: LogininfoMapper
 
     override fun register(username: String, password: String) {
-        val count = logininfoMapper!!.getCountByUsername(username)
+        val count = logininfoMapper.getCountByUsername(username)
         if (count <= 0) {
             val logininfo = Logininfo()
             logininfo.password = password
             logininfo.username = username
-            logininfoMapper!!.insert(logininfo)
+            logininfoMapper.insert(logininfo)
         } else {
             throw ServiceRuntimeException("用户已经存在!!")
         }
