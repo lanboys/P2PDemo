@@ -45,10 +45,13 @@
                     data: {username: value},
                     async: false,
                     success: function (data) {
-                        result = data.success
-                        console.debug(data.msg)
+                        result = !data.success
+                        console.debug(data)
                     }
                 })
+
+                console.debug(result)
+
                 return result
 
             }, "用户名已经存在");
