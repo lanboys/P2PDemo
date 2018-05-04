@@ -36,8 +36,14 @@ open class RegisterController : BaseController() {
 
     @RequestMapping("/checkUsername")
     @ResponseBody
-    fun checkUsername(username: String): Boolean {
-        return logininfoService.checkUsername(username)
+    fun checkUsername(username: String): ResultJSON {
+        val resultJSON = ResultJSON()
+        resultJSON.success = logininfoService.checkUsername(username)
+        resultJSON.msg = "新用户可注册"
+        if (resultJSON.success) {
+            resultJSON.msg = "用户已经存在"
+        }
+        return resultJSON
     }
 
 }

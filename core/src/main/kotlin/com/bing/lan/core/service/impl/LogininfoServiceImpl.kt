@@ -19,18 +19,17 @@ open class LogininfoServiceImpl : ILogininfoService {
 
     override fun register(username: String, password: String) {
         if (checkUsername(username)) {
-            val logininfo = Logininfo()
-            logininfo.password = password
-            logininfo.username = username
-            logininfoMapper.insert(logininfo)
-        } else {
             throw ServiceRuntimeException("用户已经存在!!")
         }
+        val logininfo = Logininfo()
+        logininfo.password = password
+        logininfo.username = username
+        logininfoMapper.insert(logininfo)
     }
 
 
     override fun checkUsername(username: String): Boolean {
         val count = logininfoMapper.getCountByUsername(username)
-        return count <= 0
+        return count > 0
     }
 }

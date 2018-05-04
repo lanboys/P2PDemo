@@ -35,16 +35,35 @@
             //     console.debug(data)
             // })
 
+            // 自己添加方法--->自定义验证方法
+            $.validator.addMethod("checkUsername", function (value, element) {
+                var result = false;
+                $.ajax({
+                    dataType: "json",
+                    type: "post",
+                    url: "/checkUsername.do",
+                    data: {username: value},
+                    async: false,
+                    success: function (data) {
+                        result = data.success
+                        console.debug(data.msg)
+                    }
+                })
+                return result
+
+            }, "用户名已经存在");
+
             $("#registerForm").validate({
                 rules: {
                     "username": {
                         required: true,
                         rangelength: [4, 16],
                         // remote:"/checkUsername.do"
-                        remote:{
-                            url:"checkUsername.do",
-                            type:"post",
-                        }
+                        // remote:{
+                        //     url:"checkUsername.do",
+                        //     type:"post",
+                        // }
+                        checkUsername: true
                     },
                     "password": {
                         required: true,
@@ -58,7 +77,8 @@
                     "username": {
                         required: "请填写用户名哦",
                         rangelength: "用户名的长度在{0}到{1}之间",
-                        remote:"用户名已经存在"
+                        // remote: "用户名已经存在"
+                        checkUsername: "用户名已经被占用哦"
                     },
                     "password": {
                         required: "请填写密码",
@@ -72,11 +92,15 @@
                 submitHandler: function (form) {
                     $(form).ajaxSubmit(function (data) {
                         console.debug(data)
+
+
                     })
                     // 不可行
                     // $("#registerForm").ajaxForm(function (data) {
                     //     console.debug(data)
                     // })
+
+
                 },
                 errorClass: "text-danger",
                 highlight: function (element, errorClass) {
