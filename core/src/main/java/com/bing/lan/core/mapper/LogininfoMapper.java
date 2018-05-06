@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 public interface LogininfoMapper {
-    
+
     int deleteByPrimaryKey(Long id);
 
     int insert(Logininfo record);
@@ -19,4 +19,6 @@ public interface LogininfoMapper {
     int updateByPrimaryKey(Logininfo record);
 
     int getCountByUsername(@Param("username") String username);
+
+    Logininfo login(@Param("username") String username, @Param("password") String password);
 }

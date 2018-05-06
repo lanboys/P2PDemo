@@ -9,6 +9,8 @@ open class ResultJSON() {
 
     var msg: String? = null
 
+    var data: Any? = null
+
 
     constructor(success: Boolean, msg: String) : this() {
         this.success = success

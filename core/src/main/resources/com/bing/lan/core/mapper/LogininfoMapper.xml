@@ -51,5 +51,10 @@
         WHERE username = #{username}
     </select>
 
+    <select id="login" resultMap="BaseResultMap">
+        SELECT *
+        FROM logininfo
+        WHERE username = #{username} AND password = #{password}
+    </select>
 
 </mapper>

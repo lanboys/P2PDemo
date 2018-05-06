@@ -3,6 +3,7 @@ package com.bing.lan.core.service
 import com.bing.lan.core.ServiceRuntimeException
 import com.bing.lan.core.domain.Logininfo
 import com.bing.lan.core.mapper.LogininfoMapper
+import com.bing.lan.core.utils.UserContext
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
@@ -31,5 +32,14 @@ open class LogininfoServiceImpl : ILogininfoService {
     override fun checkUsername(username: String): Boolean {
         val count = logininfoMapper.getCountByUsername(username)
         return count > 0
+    }
+
+    override fun login(username: String, password: String): Logininfo {
+
+        val userInfo: Logininfo = logininfoMapper.login(username, password)
+                ?: throw ServiceRuntimeException("用户已经不存在!!")
+
+        UserContext.putLogininfo(userInfo)
+        return userInfo
     }
 }
