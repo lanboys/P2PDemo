@@ -29,9 +29,8 @@ open class PersonalController : BaseController() {
 
         val logininfo = UserContext.getLogininfo()
         logininfo.id?.let { id ->
-            model.addAttribute("userinfo", userinfoService.get(id))
+            model.addAttribute("logininfo", userinfoService.get(id))
             model.addAttribute("account", accountService.get(id))
-
         }
         return "personal"
     }

@@ -38,7 +38,7 @@ open class LogininfoServiceImpl : ILogininfoService {
     override fun login(username: String, password: String): Logininfo {
 
         val userInfo: Logininfo = logininfoMapper.login(username, password)
-                ?: throw ServiceRuntimeException("用户已经不存在!!")
+                ?: throw ServiceRuntimeException("用户名或者密码错误！！")
 
         UserContext.putLogininfo(userInfo)
         return userInfo
