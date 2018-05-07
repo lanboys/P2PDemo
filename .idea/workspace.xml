@@ -7,23 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b80e4a6-65d2-4aaa-afab-32e7b7de0811" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_40.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/BaseDomain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/QueryObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryQueryObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/utils/BitStatesUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IAccountService.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/ISendVerifyCodeService.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/AccountServiceImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/SendVerifyCodeServiceImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/UserServiceImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/P2P.iml" afterPath="$PROJECT_DIR$/P2P.iml" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/ServiceRuntimeException.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/ServiceRuntimeException.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/domain/Logininfo.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/mapper/LogininfoMapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/impl/LogininfoServiceImpl.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/utils/UserContext.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/mapper/LogininfoMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/LogininfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/personal.ftl" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/template/personal.ftl" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/login.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/login.html" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,12 +89,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml">
+      <file leaf-file-name="UserinfoMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/UserinfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-              <folding />
+            <state relative-caret-position="-42">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <marker date="1525685031844" expanded="true" signature="2242:2328" ph="DELETE FROM userinfo... " />
+                <marker date="1525685031844" expanded="true" signature="2449:3135" ph="INSERT INTO userinfo... " />
+                <marker date="1525685031844" expanded="true" signature="3251:4166" ph="UPDATE userinfo... " />
+                <marker date="1525685031844" expanded="true" signature="4284:4691" ph="SELECT id, v... userinfo" />
+                <marker date="1525685031844" expanded="true" signature="4769:5135" ph="SELECT id, v... userinfo" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +111,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,9 +126,18 @@
       <find>scan</find>
       <find>mapper</find>
       <find>loginForm</find>
+      <find>com.eloan.business.service.</find>
+      <find>selectByPrimaryKey</find>
+      <find>com.eloan.base.mapper.SystemDictionaryItemMapper</find>
+      <find>com.eloan.business.domain.Userinfo</find>
+      <find>SystemDictionaryItem</find>
+      <find>authScore</find>
     </findStrings>
     <replaceStrings>
       <replace>/&gt;</replace>
+      <replace>com.bing.lan.core.base.mapper.SystemDictionaryItemMapper</replace>
+      <replace>com.bing.lan.core.base.domain.Userinfo</replace>
+      <replace>com.bing.lan.core.base.domain.SystemDictionaryItem</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -125,30 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/springMvc/_05_interceptor/MyHandlerInterceptor.java" />
-        <option value="$PROJECT_DIR$/web/src/main/web/login.html" />
-        <option value="$PROJECT_DIR$/web/src/main/web/注册.html" />
-        <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/web/bootstrap.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/bootstrap.html" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/bing/lan/web/domian/User.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/spring-mybitis.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/ILogininfoService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/kotlin/co.kt" />
-        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/service/ILogininfoService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/ServiceException.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/ServiceRuntimeException.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/BaseController.kt" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl1.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/register1.html" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/core/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/core/src/main/resources/db.properties" />
@@ -163,17 +165,43 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/register.html" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/UserContext.java" />
         <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/utils/UserContext.kt" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt" />
         <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IAccountService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IUserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/IAccountService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/ISendVerifyCodeService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/VerifyCode.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/impl/SendVerifyCodeService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IAccountService.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/ISendVerifyCodeService.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/AccountServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/SendVerifyCodeServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/UserinfoMapper.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/utils/BitStatesUtils.java" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/UserServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryQueryObject.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/QueryObject.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.java" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/UserinfoMapper.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryItem.java" />
       </list>
     </option>
   </component>
@@ -204,30 +232,15 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.bing.lan:core:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,7 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,45 +322,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -383,6 +369,23 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -415,49 +418,20 @@
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -471,12 +445,16 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="requestcontextli&#9;FILE&#9;jar://C:/Users/520/.m2/repository/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/context/request/RequestContextListener.class" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\kotlin\com\bing\lan\core\base" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web\src\main" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\domain" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\mapper" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\business\service\impl" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\resources\com\bing\lan\core\base\mapper" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\service\impl" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.bing.lan.controller" />
@@ -488,12 +466,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bing.lan.core.base" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\resources\com\bing\lan\core\base\mapper" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\service\impl" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\service" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\kotlin\com\bing\lan\core\business\service" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web\src\main\webapp\WEB-INF" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web\src\main\webapp\WEB-INF\template" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\kotlin\com\bing\lan\core\base" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web\src\main" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -616,7 +594,8 @@
       </ConfigurationWrapper>
     </configuration>
     <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/register.html" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/login.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="web:war exploded">
@@ -719,7 +698,9 @@
       <workItem from="1525328824341" duration="13255000" />
       <workItem from="1525357607625" duration="4110000" />
       <workItem from="1525610276921" duration="5823000" />
-      <workItem from="1525657156014" duration="5325000" />
+      <workItem from="1525657156014" duration="12704000" />
+      <workItem from="1525680907498" duration="3871000" />
+      <workItem from="1525684832272" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="配置freemarker">
       <created>1525673414547</created>
@@ -732,7 +713,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80681000" />
+    <option name="totallyTimeSpent" value="92822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,7 +731,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060311284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11802854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -759,18 +740,19 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07198443" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6720827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34859675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8581979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.92023635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8865598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25875485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26588845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -778,7 +760,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21589689" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60665846" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -823,220 +804,57 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-core.xml" />
-    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/BaseController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/com/bing/lan/controller/RegisterController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/bing/lan/web/domian/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/760b3b0/3ed0868b-1a71-4e50-a426-9a052ab48226/p2p.logininfo" />
-    <entry file="das://table:/8bab409f/3ed0868b-1a71-4e50-a426-9a052ab48226/p2p.logininfo" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/context/request/RequestContextListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="17" column="86" lean-forward="false" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Android/Java/jdk1.8.0_102/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/domian/ResultJSON.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.10/kotlin-stdlib-1.2.10-sources.jar!/kotlin/TypeAliases.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.10/kotlin-stdlib-1.2.10-sources.jar!/kotlin/Throwable.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="89" column="35" lean-forward="true" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/UserContext.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/LogininfoServiceImpl1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1612">
-          <caret line="99" column="111" lean-forward="false" selection-start-line="99" selection-start-column="111" selection-end-line="99" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/AccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <marker date="1525674132754" expanded="true" signature="1236:1296" ph="DELETE FROM account... " />
+            <marker date="1525674132754" expanded="true" signature="1451:2115" ph="INSERT INTO account... " />
+            <marker date="1525674132754" expanded="true" signature="2229:2906" ph="UPDATE account... " />
+            <marker date="1525674132754" expanded="true" signature="3023:3360" ph="SELECT id, t... account" />
+            <marker date="1525674132754" expanded="true" signature="3437:3733" ph="SELECT id, t... account" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IAccountService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/BaseController.kt">
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/ISendVerifyCodeService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/template/common/head-tpl.ftl">
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/template/common/footer-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/personal.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="466">
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1044,86 +862,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/ServiceRuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="205">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/ui/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IAccountService.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="235">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IUserService.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
+        <state relative-caret-position="-824">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/AccountMapper.xml">
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.40/kotlin-stdlib-1.2.40-sources.jar!/kotlin/internal/contracts/ContractBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.2.40/kotlin-stdlib-1.2.40-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/freemarker/core/InvalidReferenceException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/freemarker/core/InvalidReferenceException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/template/personal.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/impl/AccountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/VerifyCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/utils/BitStatesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/UserServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/reflection/Reflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="380" column="5" lean-forward="true" selection-start-line="380" selection-start-column="5" selection-end-line="380" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/io/ClassLoaderWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/LogininfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        <state relative-caret-position="924">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding>
             <marker date="1525672763109" expanded="true" signature="672:734" ph="DELETE FROM logininfo... " />
             <marker date="1525672763109" expanded="true" signature="891:1077" ph="INSERT INTO logininfo... " />
@@ -1136,51 +1033,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/type/Alias.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/UserinfoMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/UserinfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/LogininfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/domain/Userinfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/domain/SystemDictionaryItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/builder/xml/XMLMapperBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/builder/BaseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="184" column="3" lean-forward="false" selection-start-line="184" selection-start-column="3" selection-end-line="189" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/BaseDomain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="42" column="75" lean-forward="false" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
+        <state relative-caret-position="63">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryQueryObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1525685076880" expanded="true" signature="1072:1145" ph="delete from systemdictionaryitem... " />
+            <marker date="1525685076880" expanded="true" signature="1314:1562" ph="insert into systemdictionaryitem... " />
+            <marker date="1525685076880" expanded="true" signature="1702:2025" ph="update systemdictionaryitem... " />
+            <marker date="1525685076880" expanded="true" signature="2238:2358" ph="select from systemdictionaryitem" />
+            <marker date="1525685076880" expanded="true" signature="2436:2515" ph="select from systemdictionaryitem" />
+            <marker date="1525685076880" expanded="true" signature="2873:2915" ph="select count... systemdictionaryitem" />
+            <marker date="1525685076880" expanded="true" signature="3306:3531" ph="select item.... systemdictionaryitem" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/QueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/UserinfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/UserinfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1525685031844" expanded="true" signature="2242:2328" ph="DELETE FROM userinfo... " />
+            <marker date="1525685031844" expanded="true" signature="2449:3135" ph="INSERT INTO userinfo... " />
+            <marker date="1525685031844" expanded="true" signature="3251:4166" ph="UPDATE userinfo... " />
+            <marker date="1525685031844" expanded="true" signature="4284:4691" ph="SELECT id, v... userinfo" />
+            <marker date="1525685031844" expanded="true" signature="4769:5135" ph="SELECT id, v... userinfo" />
+          </folding>
         </state>
       </provider>
     </entry>

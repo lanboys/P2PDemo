@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="core" target="1.5" />
+      <module name="core" target="1.7" />
       <module name="P2P" target="1.5" />
       <module name="web" target="1.5" />
     </bytecodeTargetLevel>

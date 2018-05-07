@@ -1,18 +1,21 @@
 package com.bing.lan.core.base.utils
 
 import com.bing.lan.core.base.domain.Logininfo
+import com.bing.lan.core.business.service.VerifyCode
 import org.springframework.web.context.request.RequestContextHolder
 import org.springframework.web.context.request.ServletRequestAttributes
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpSession
 
+
 /**
  * Created by 蓝兵 on 2018/5/6.
  */
 
-internal object UserContext {
+object UserContext {
 
-    val LOGIN_IN_SESSION = "loginingo"
+    val LOGIN_IN_SESSION = "LOGIN_IN_SESSION"
+    val VERIFYCODE_IN_SESSION = "VERIFYCODE_IN_SESSION"
 
     private val session: HttpSession
         get() = httpServletRequest.session
@@ -26,7 +29,15 @@ internal object UserContext {
         session.setAttribute(LOGIN_IN_SESSION, logininfo)
     }
 
-    fun getLogininfo() {
-        session.getAttribute(LOGIN_IN_SESSION)
+    fun getLogininfo(): Logininfo {
+        return session.getAttribute(LOGIN_IN_SESSION) as Logininfo
+    }
+
+    fun putVerifyCode(code: VerifyCode) {
+        session.setAttribute(VERIFYCODE_IN_SESSION, code)
+    }
+
+    fun getVerifyCode(): VerifyCode {
+        return session.getAttribute(VERIFYCODE_IN_SESSION) as VerifyCode
     }
 }

@@ -42,6 +42,14 @@
             <!-- 表示开发的时候引入，发布的时候不会加载此包 -->
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -135,11 +143,11 @@
                 <version>1.2</version>
             </dependency>
             <!-- 日志文件管理包 -->
-             <!--log start -->
+            <!--log start -->
             <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>RELEASE</version>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>RELEASE</version>
             </dependency>
             <!-- 格式化对象，方便输出日志 -->
             <dependency>
