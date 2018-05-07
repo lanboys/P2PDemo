@@ -1,9 +1,10 @@
-package com.bing.lan.core.service
+package com.bing.lan.core.base.service.impl
 
-import com.bing.lan.core.ServiceRuntimeException
-import com.bing.lan.core.domain.Logininfo
-import com.bing.lan.core.mapper.LogininfoMapper
-import com.bing.lan.core.utils.UserContext
+import com.bing.lan.core.base.ServiceRuntimeException
+import com.bing.lan.core.base.domain.Logininfo
+import com.bing.lan.core.base.mapper.LogininfoMapper
+import com.bing.lan.core.base.service.ILogininfoService
+import com.bing.lan.core.base.utils.UserContext
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

@@ -1,6 +1,6 @@
 package com.bing.lan.controller;
 
-import com.bing.lan.core.service.ILogininfoService
+import com.bing.lan.core.base.service.ILogininfoService
 import com.bing.lan.web.domian.ResultJSON
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller

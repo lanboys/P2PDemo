@@ -1,6 +1,6 @@
-package com.bing.lan.core.utils
+package com.bing.lan.core.base.utils
 
-import com.bing.lan.core.domain.Logininfo
+import com.bing.lan.core.base.domain.Logininfo
 import org.springframework.web.context.request.RequestContextHolder
 import org.springframework.web.context.request.ServletRequestAttributes
 import javax.servlet.http.HttpServletRequest

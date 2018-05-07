@@ -1,4 +1,4 @@
-package com.bing.lan.core.domain;
+package com.bing.lan.core.base.domain;
 
 public class Logininfo {
     private Long id;

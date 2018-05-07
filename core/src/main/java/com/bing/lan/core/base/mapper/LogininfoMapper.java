@@ -1,6 +1,6 @@
-package com.bing.lan.core.mapper;
+package com.bing.lan.core.base.mapper;
 
-import com.bing.lan.core.domain.Logininfo;
+import com.bing.lan.core.base.domain.Logininfo;
 
 import org.apache.ibatis.annotations.Param;
 

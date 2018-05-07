@@ -1,6 +1,6 @@
-package com.bing.lan.core.service
+package com.bing.lan.core.base.service
 
-import com.bing.lan.core.domain.Logininfo
+import com.bing.lan.core.base.domain.Logininfo
 
 
 interface ILogininfoService {
