@@ -10,7 +10,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Alias("UserInfo")
+//@Alias("UserInfo")
 public class Userinfo extends BaseDomain {
 
     private static final long serialVersionUID = -2194938919842714855L;

@@ -30,12 +30,13 @@ open class LogininfoServiceImpl : ILogininfoService {
     lateinit var logininfoMapper: LogininfoMapper
 
     override fun register(username: String, password: String) {
-        if (checkUsername(username)) {
+        if (checkUsername(username, Logininfo.USERTYPE_NORMAL)) {
             throw ServiceRuntimeException("用户名已经存在!!")
         }
         val logininfo = Logininfo()
         logininfo.password = password
         logininfo.username = username
+        logininfo.userType = Logininfo.USERTYPE_NORMAL
         logininfoMapper.insert(logininfo)
 
         val account = Account.empty(logininfo.id)
@@ -46,14 +47,14 @@ open class LogininfoServiceImpl : ILogininfoService {
     }
 
 
-    override fun checkUsername(username: String): Boolean {
-        val count = logininfoMapper.getCountByUsername(username)
+    override fun checkUsername(username: String, userType: Int): Boolean {
+        val count = logininfoMapper.getCountByUsername(username,userType)
         return count > 0
     }
 
-    override fun login(username: String, password: String): Logininfo {
+    override fun login(username: String, password: String, userType: Int): Logininfo {
 
-        val userInfo: Logininfo = logininfoMapper.login(username, password)
+        val userInfo: Logininfo = logininfoMapper.login(username, password,userType)
                 ?: throw ServiceRuntimeException("用户名或者密码错误！！")
 
         UserContext.putLogininfo(userInfo)

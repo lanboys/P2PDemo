@@ -14,10 +14,10 @@ public class Logininfo extends BaseDomain {
     public static final int USERTYPE_NORMAL = 0;//前段用户
     public static final int USERTYPE_SYSTEM = 1;//后台用户
 
-    private String username;
-    private String password;
-    private int state = STATE_NORMAL;
+    public String username;
+    public String password;
+    public int state = STATE_NORMAL;
 
-    private int userType;//用户类型
-    private boolean admin = false;
+    public int userType;//用户类型
+    public boolean admin = false;
 }

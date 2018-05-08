@@ -1,5 +1,6 @@
 package com.bing.lan.controller;
 
+import com.bing.lan.core.base.domain.Logininfo
 import com.bing.lan.core.base.service.ILogininfoService
 import com.bing.lan.web.domian.ResultJSON
 import org.springframework.beans.factory.annotation.Autowired
@@ -38,7 +39,7 @@ open class RegisterController : BaseController() {
     @ResponseBody
     fun checkUsername(username: String): ResultJSON {
         val resultJSON = ResultJSON()
-        resultJSON.success = logininfoService.checkUsername(username)
+        resultJSON.success = logininfoService.checkUsername(username, Logininfo.USERTYPE_NORMAL)
         resultJSON.msg = "新用户可注册"
         if (resultJSON.success) {
             resultJSON.msg = "用户已经存在"

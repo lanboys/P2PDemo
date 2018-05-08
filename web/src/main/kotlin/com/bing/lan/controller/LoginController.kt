@@ -1,5 +1,6 @@
 package com.bing.lan.controller;
 
+import com.bing.lan.core.base.domain.Logininfo
 import com.bing.lan.core.base.service.ILogininfoService
 import com.bing.lan.web.domian.ResultJSON
 import org.springframework.beans.factory.annotation.Autowired
@@ -24,7 +25,7 @@ open class LoginController : BaseController() {
     fun register(username: String, password: String): ResultJSON {
         val resultJSON = ResultJSON()
         try {
-            val login = logininfoService.login(username, password)
+            val login = logininfoService.login(username, password, Logininfo.USERTYPE_NORMAL)
             resultJSON.success = true
             resultJSON.data = login
         } catch (e: Throwable) {
