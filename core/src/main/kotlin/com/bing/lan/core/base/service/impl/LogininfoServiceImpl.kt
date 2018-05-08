@@ -8,6 +8,7 @@ import com.bing.lan.core.base.mapper.AccountMapper
 import com.bing.lan.core.base.mapper.LogininfoMapper
 import com.bing.lan.core.base.mapper.UserinfoMapper
 import com.bing.lan.core.base.service.ILogininfoService
+import com.bing.lan.core.base.utils.BidConst
 import com.bing.lan.core.base.utils.UserContext
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Service
 
 @Service("logininfoService")
 open class LogininfoServiceImpl : ILogininfoService {
+
     @Autowired
     lateinit var userinfoMapper: UserinfoMapper
 
@@ -48,16 +50,30 @@ open class LogininfoServiceImpl : ILogininfoService {
 
 
     override fun checkUsername(username: String, userType: Int): Boolean {
-        val count = logininfoMapper.getCountByUsername(username,userType)
+        val count = logininfoMapper.getCountByUsername(username, userType)
         return count > 0
     }
 
     override fun login(username: String, password: String, userType: Int): Logininfo {
 
-        val userInfo: Logininfo = logininfoMapper.login(username, password,userType)
+        val userInfo: Logininfo = logininfoMapper.login(username, password, userType)
                 ?: throw ServiceRuntimeException("用户名或者密码错误！！")
 
         UserContext.putLogininfo(userInfo)
         return userInfo
+    }
+
+    override fun hasAdmin(): Boolean {
+        return logininfoMapper.getCountByUsername(BidConst.DEFAULT_ADMIN_NAME, Logininfo.USERTYPE_SYSTEM) > 0
+    }
+
+    override fun createDefaultAdmin() {
+        val logininfo = Logininfo()
+        logininfo.password = BidConst.DEFAULT_ADMIN_PASSWORD
+        logininfo.username = BidConst.DEFAULT_ADMIN_NAME
+        logininfo.userType = Logininfo.USERTYPE_SYSTEM
+        logininfo.admin = true
+
+        logininfoMapper.insert(logininfo)
     }
 }

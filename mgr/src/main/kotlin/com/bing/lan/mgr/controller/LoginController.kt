@@ -22,7 +22,7 @@ open class LoginController : BaseController() {
 
     @RequestMapping("/login")
     @ResponseBody
-    fun register(username: String, password: String): ResultJSON {
+    fun login(username: String, password: String): ResultJSON {
         val resultJSON = ResultJSON()
         try {
             val login = logininfoService.login(username, password,

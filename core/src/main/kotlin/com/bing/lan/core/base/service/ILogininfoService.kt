@@ -26,4 +26,14 @@ interface ILogininfoService {
     fun login(username: String, password: String, userType: Int): Logininfo
 
 
+    /**
+     * 是否有管理员
+     */
+    fun hasAdmin(): Boolean
+
+    /**
+     * 创建默认的管理员
+     */
+    fun createDefaultAdmin()
+
 }
