@@ -2,24 +2,305 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web:war exploded" />
+      <artifact name="mgr:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b80e4a6-65d2-4aaa-afab-32e7b7de0811" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ed0868b-1a71-4e50-a426-9a052ab48226.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/3ed0868b-1a71-4e50-a426-9a052ab48226.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mgr_Web_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mgr_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mgr_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/mgr.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/BaseController.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/LoginController.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/resources/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/resources/logging.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/resources/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/css/core.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/bank_list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/banner01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/banner02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/baozhan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/dtg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/feature01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/feature02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/feature03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/ku.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/logo02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/person_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/phone2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/sequare.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/shiming.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/shouji.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/sina.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/social-icons-set.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/tecent.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/txwb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/upload_source_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/upload_source_2_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/wx.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/wxsm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/xlwb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/images/youxiang.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/My97DatePicker.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/WdatePicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/lang/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/default/img.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/bootstrap-3.3.2-dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/customer-components.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/jquery.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/jquery/jquery-2.1.3.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/jquery/jquery-2.1.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/metisMenu/metisMenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/metisMenu/metisMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/css/bootstrap-datetimepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/bootstrap-datetimepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.no.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/minify.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings-white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/img/glyphicons-halflings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v2/jquery/jquery-1.8.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/datetimepicker/sample in bootstrap v3/jquery/jquery-1.8.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/MIT-LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/flipcountdown.jquery.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/am-pm-1.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-lg-dark.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-lg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-lg.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-md.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-sm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/img/digit-xs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/jquery.flipcountdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/jquery.flipcountdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/screen/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/flipcountdown/screen/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/ajaxSubmit-intergration-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/captcha.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/fonts/Anorexia.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/image_req.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/images/image.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/newsession.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/process.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/rand.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/captcha/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/chili.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/cmxform.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/cmxformTemplate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/core.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/css/screen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/custom-messages-data-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/custom-methods-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/dynamic-totals.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/errorcontainer-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/file_input.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/form.phps" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/checked.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/cmxform-divider.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/cmxform-fieldset.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/images/unchecked.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/jquerymobile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/js/chili-1.7.pack.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/images/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/images/header1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/images/page.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/images/required_star.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/login/screen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/emails.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/emails.phps" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/ie6.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/backRequiredGray.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/back_green-fade.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/back_nav_blue.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/button-submit.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/help.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/left-nav-callout-long.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/login-sprite.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/logo_marketo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/sf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step1-24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step2-24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/step3-24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/tab-sprite.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/tab_green.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/time.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/toggle.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/images/warning.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/jquery.maskedinput.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/mktSignup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/step2.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/marketo/stylesheet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/emails.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/emails.phps" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/left_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/milk.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/milk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/right_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/users.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/milk/users.phps" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/multipart/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/jquery.maskedinput-1.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/ui.accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/multipart/js/ui.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/multipart/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/radio-checkbox-select-demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tabs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/themerollered.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/editor_template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/img/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/langs/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/demo/tinymce/tiny_mce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/jquery.validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.6.4.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.7.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.8.3.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery-1.9.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/lib/jquery.mockjax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery-validation/localization/messages_zh.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/jquery.twbsPagination.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/uploadify/jquery.uploadify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/uploadify/jquery.uploadify.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/uploadify/uploadify-cancel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/js/plugins/uploadify/uploadify.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mgr/src/main/webapp/login.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_40.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_41.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/AccountMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/AccountMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/LogininfoMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/LogininfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/com/bing/lan/core/base/mapper/UserinfoMapper.xml" afterPath="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/UserinfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" />
+      <change beforePath="$PROJECT_DIR$/P2P.iml" afterPath="$PROJECT_DIR$/P2P.iml" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/BaseController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/BaseController.kt" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/LoginController.kt" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/PersonalController.kt" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" afterPath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/RegisterController.kt" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/domian/ResultJSON.kt" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/domain/ResultJSON.kt" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +310,7 @@
     <ignored path="$PROJECT_DIR$/web/${project.build.directory}/test-classes/" />
     <ignored path="$PROJECT_DIR$/core/${project.build.directory}/classes/" />
     <ignored path="$PROJECT_DIR$/core/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/mgr/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +355,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LogininfoServiceImpl.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt">
+      <file leaf-file-name="LoginController.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/LoginController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -133,12 +415,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/service/UserContext.java" />
-        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/utils/UserContext.kt" />
-        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IAccountService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/business/service/IUserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
@@ -156,7 +432,6 @@
         <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/IUserService.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/UserinfoMapper.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/utils/BitStatesUtils.java" />
         <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/business/service/impl/UserServiceImpl.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/BaseDomain.java" />
@@ -184,6 +459,13 @@
         <option value="$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Userinfo.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java" />
+        <option value="$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/BaseController.kt" />
+        <option value="$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/domain/ResultJSON.kt" />
+        <option value="$PROJECT_DIR$/mgr/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/mgr/src/main/resources/logging.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mgr/pom.xml" />
+        <option value="$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/LoginController.kt" />
       </list>
     </option>
   </component>
@@ -212,7 +494,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -242,6 +529,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,85 +541,25 @@
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
@@ -338,147 +567,41 @@
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="lan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="lan" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="mgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P2PDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P2PDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="spring" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -487,7 +610,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KotlinDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mgr/src/main/webapp/WEB-INF/web.xml" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="Account&#9;FILE&#9;file://E:/workspace/IDEA_workspace/P2PDemo/core/src/main/java/com/bing/lan/core/base/domain/Account.java&#10;requestcontextli&#9;FILE&#9;jar://C:/Users/520/.m2/repository/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/context/request/RequestContextListener.class" />
@@ -497,16 +620,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\mgr\src\main\webapp" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\mgr\src\main\resources" />
+      <recent name="E:\workspace\IDEA_workspace\P2PDemo\mgr\src\main\webapp\WEB-INF" />
       <recent name="E:\workspace\IDEA_workspace\P2PDemo" />
       <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\domain" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\base\mapper" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\java\com\bing\lan\core\business\service\impl" />
-      <recent name="E:\workspace\IDEA_workspace\P2PDemo\core\src\main\resources\com\bing\lan\core\base\mapper" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.bing.lan.mgr.controller" />
       <recent name="com.bing.lan.controller" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.bing.lan.core.domain" />
       <recent name="com.bing.lan.core.base.impl" />
       <recent name="com.bing.lan.core.base.service" />
     </key>
@@ -533,7 +658,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.web">
+  <component name="RunManager" selected="Tomcat Server.tomcat-mgr">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -640,7 +765,81 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat-mgr" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/login.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="mgr:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_P2PDemo_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62291" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mgr:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="tomcat-web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/login.html" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -720,9 +919,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Maven.tomcat-web" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.web" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat-web" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.tomcat-mgr" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -748,7 +948,9 @@
       <workItem from="1525657156014" duration="12704000" />
       <workItem from="1525680907498" duration="3871000" />
       <workItem from="1525684832272" duration="3671000" />
-      <workItem from="1525743207904" duration="6304000" />
+      <workItem from="1525743207904" duration="12646000" />
+      <workItem from="1525765783753" duration="146000" />
+      <workItem from="1525765993081" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="配置freemarker">
       <created>1525673414547</created>
@@ -761,7 +963,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101906000" />
+    <option name="totallyTimeSpent" value="108881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,30 +981,29 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11802854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09597925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06809338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06809338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07198443" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6720827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59379613" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70901036" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04579025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.92023635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65140325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80797637" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26848248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22503242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -810,6 +1011,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21589689" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,202 +1073,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/reflection/Reflector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="380" column="5" lean-forward="true" selection-start-line="380" selection-start-column="5" selection-end-line="380" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/io/ClassLoaderWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/type/Alias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/UserinfoMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/UserinfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/mapper/LogininfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/domain/Userinfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/bing/lan/core/base/domain/SystemDictionaryItem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/builder/xml/XMLMapperBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6-sources.jar!/org/apache/ibatis/builder/BaseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryQueryObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <marker date="1525685076880" expanded="true" signature="1072:1145" ph="delete from systemdictionaryitem... " />
-            <marker date="1525685076880" expanded="true" signature="1314:1562" ph="insert into systemdictionaryitem... " />
-            <marker date="1525685076880" expanded="true" signature="1702:2025" ph="update systemdictionaryitem... " />
-            <marker date="1525685076880" expanded="true" signature="2238:2358" ph="select from systemdictionaryitem" />
-            <marker date="1525685076880" expanded="true" signature="2436:2515" ph="select from systemdictionaryitem" />
-            <marker date="1525685076880" expanded="true" signature="2873:2915" ph="select count... systemdictionaryitem" />
-            <marker date="1525685076880" expanded="true" signature="3306:3531" ph="select item.... systemdictionaryitem" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/SystemDictionaryItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/QueryObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/SystemDictionaryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/mapper/UserinfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/navbar-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/loadSystemDictionary-macro.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/links-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/leftmenu-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/head-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/common/footer-tpl.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/personal.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2287">
           <caret line="240" column="28" lean-forward="true" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,38 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,9 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,39 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/LoginController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/BaseController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/PersonalController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/controller/RegisterController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,13 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <marker date="1525685031844" expanded="true" signature="2242:2328" ph="DELETE FROM userinfo... " />
-            <marker date="1525685031844" expanded="true" signature="2449:3135" ph="INSERT INTO userinfo... " />
-            <marker date="1525685031844" expanded="true" signature="3251:4166" ph="UPDATE userinfo... " />
-            <marker date="1525685031844" expanded="true" signature="4284:4691" ph="SELECT id, v... userinfo" />
-            <marker date="1525685031844" expanded="true" signature="4769:5135" ph="SELECT id, v... userinfo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,14 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="74" lean-forward="false" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-          <folding>
-            <marker date="1525745531317" expanded="true" signature="1236:1296" ph="DELETE FROM account... " />
-            <marker date="1525745531317" expanded="true" signature="1451:2066" ph="INSERT INTO account... " />
-            <marker date="1525745531317" expanded="true" signature="2065:2066" ph="INSERT INTO account... " />
-            <marker date="1525745531317" expanded="true" signature="2180:2841" ph="UPDATE account... " />
-            <marker date="1525745531317" expanded="true" signature="2958:3295" ph="SELECT id, t... account" />
-            <marker date="1525745531317" expanded="true" signature="3372:3668" ph="SELECT id, t... account" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,17 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <marker date="1525750279762" expanded="true" signature="812:874" ph="DELETE FROM logininfo... " />
-            <marker date="1525750279762" expanded="true" signature="1043:1282" ph="INSERT INTO logininfo... " />
-            <marker date="1525750279762" expanded="true" signature="1398:1679" ph="UPDATE logininfo... " />
-            <marker date="1525750279762" expanded="true" signature="1796:1985" ph="SELECT id, u... logininfo" />
-            <marker date="1525750279762" expanded="true" signature="2062:2210" ph="SELECT id, u... logininfo" />
-            <marker date="1525750279762" expanded="true" signature="2292:2368" ph="SELECT count... logininfo" />
-            <marker date="1525750279762" expanded="true" signature="2292:2395" ph="SELECT count... logininfo" />
-            <marker date="1525750279762" expanded="true" signature="2469:2564" ph="SELECT * FRO... logininfo" />
-            <marker date="1525750279762" expanded="true" signature="2469:2591" ph="SELECT * FRO... logininfo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,19 +1152,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/utils/UserContext.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,18 +1183,226 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/domain/ResultJSON.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/RegisterController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+          <folding>
+            <element signature="e#38#416#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/PersonalController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/LoginController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/kotlin/com/bing/lan/web/controller/BaseController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/bing/lan/core/base/domain/Logininfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/target/classes/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/com/bing/lan/mgr/controller/BaseController.class" />
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/com/bing/lan/mgr/controller/LoginController.class" />
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/spring-mvc.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/target/classes/logging.properties" />
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/resources/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/mgr_Web_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/target/maven-archiver/pom.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/ILogininfoService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/kotlin/com/bing/lan/core/base/service/impl/LogininfoServiceImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="55">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/BaseController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgr/src/main/kotlin/com/bing/lan/mgr/controller/LoginController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1299,7 +1413,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>web:Web exploded</last-edited>
+          <last-edited>mgr:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1312,7 +1426,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (web)|Web</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1347,7 +1461,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|web</last-edited>
+          <last-edited>Web|mgr</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

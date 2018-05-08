@@ -43,7 +43,7 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.23" />
-          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.40" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.41" />
           <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
         </element>
       </element>

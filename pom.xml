@@ -12,6 +12,7 @@
     <modules>
         <module>core</module>
         <module>web</module>
+        <module>mgr</module>
     </modules>
 
     <properties>
@@ -24,7 +25,7 @@
         <slf4j.version>RELEASE</slf4j.version>
         <log4j.version>RELEASE</log4j.version>
 
-        <kotlin.version>1.2.40</kotlin.version>
+        <kotlin.version>1.2.41</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     </properties>
 
