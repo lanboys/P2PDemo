@@ -4,15 +4,15 @@
 <mapper namespace="com.bing.lan.core.base.mapper.AccountMapper">
     <resultMap id="BaseResultMap" type="com.bing.lan.core.base.domain.Account">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <result column="tradePassword" property="tradepassword" jdbcType="VARCHAR"/>
-        <result column="usableAmount" property="usableamount" jdbcType="DECIMAL"/>
-        <result column="freezedAmount" property="freezedamount" jdbcType="DECIMAL"/>
-        <result column="borrowLimitAmount" property="borrowlimitamount" jdbcType="DECIMAL"/>
+        <result column="tradePassword" property="tradePassword" jdbcType="VARCHAR"/>
+        <result column="usableAmount" property="usableAmount" jdbcType="DECIMAL"/>
+        <result column="freezedAmount" property="freezedAmount" jdbcType="DECIMAL"/>
+        <result column="borrowLimitAmount" property="borrowLimitAmount" jdbcType="DECIMAL"/>
         <result column="version" property="version" jdbcType="INTEGER"/>
-        <result column="unReceiveInterest" property="unreceiveinterest" jdbcType="DECIMAL"/>
-        <result column="unReceivePrincipal" property="unreceiveprincipal" jdbcType="DECIMAL"/>
-        <result column="unReturnAmount" property="unreturnamount" jdbcType="DECIMAL"/>
-        <result column="remainBorrowLimit" property="remainborrowlimit" jdbcType="DECIMAL"/>
+        <result column="unReceiveInterest" property="unReceiveInterest" jdbcType="DECIMAL"/>
+        <result column="unReceivePrincipal" property="unReceivePrincipal" jdbcType="DECIMAL"/>
+        <result column="unReturnAmount" property="unReturnAmount" jdbcType="DECIMAL"/>
+        <result column="remainBorrowLimit" property="remainBorrowLimit" jdbcType="DECIMAL"/>
     </resultMap>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
         DELETE FROM account
@@ -20,29 +20,26 @@
     </delete>
     <insert id="insert" parameterType="com.bing.lan.core.base.domain.Account"
             useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO account (tradePassword, usableAmount, freezedAmount,
+        INSERT INTO account (id, tradePassword, usableAmount, freezedAmount,
                              borrowLimitAmount, version, unReceiveInterest,
-                             unReceivePrincipal, unReturnAmount, remainBorrowLimit
-        )
-        VALUES (#{tradepassword,jdbcType=VARCHAR}, #{usableamount,jdbcType=DECIMAL},
-                #{freezedamount,jdbcType=DECIMAL},
-                #{borrowlimitamount,jdbcType=DECIMAL}, #{version,jdbcType=INTEGER},
-                #{unreceiveinterest,jdbcType=DECIMAL},
-                #{unreceiveprincipal,jdbcType=DECIMAL}, #{unreturnamount,jdbcType=DECIMAL},
-                #{remainborrowlimit,jdbcType=DECIMAL}
-        )
+                             unReceivePrincipal, unReturnAmount, remainBorrowLimit)
+        VALUES (#{id}, #{tradePassword,jdbcType=VARCHAR}, #{usableAmount,jdbcType=DECIMAL},
+                #{freezedAmount,jdbcType=DECIMAL},
+                #{borrowLimitAmount,jdbcType=DECIMAL}, 0, #{unReceiveInterest,jdbcType=DECIMAL},
+                #{unReceivePrincipal,jdbcType=DECIMAL}, #{unReturnAmount,jdbcType=DECIMAL},
+                #{remainBorrowLimit,jdbcType=DECIMAL})
     </insert>
     <update id="updateByPrimaryKey" parameterType="com.bing.lan.core.base.domain.Account">
         UPDATE account
-        SET tradePassword      = #{tradepassword,jdbcType=VARCHAR},
-            usableAmount       = #{usableamount,jdbcType=DECIMAL},
-            freezedAmount      = #{freezedamount,jdbcType=DECIMAL},
-            borrowLimitAmount  = #{borrowlimitamount,jdbcType=DECIMAL},
-            version            = #{version,jdbcType=INTEGER},
-            unReceiveInterest  = #{unreceiveinterest,jdbcType=DECIMAL},
-            unReceivePrincipal = #{unreceiveprincipal,jdbcType=DECIMAL},
-            unReturnAmount     = #{unreturnamount,jdbcType=DECIMAL},
-            remainBorrowLimit  = #{remainborrowlimit,jdbcType=DECIMAL}
+        SET tradePassword      = #{tradePassword,jdbcType=VARCHAR},
+            usableAmount       = #{usableAmount,jdbcType=DECIMAL},
+            freezedAmount      = #{freezedAmount,jdbcType=DECIMAL},
+            borrowLimitAmount  = #{borrowLimitAmount,jdbcType=DECIMAL},
+            version            = version + 1,
+            unReceiveInterest  = #{unReceiveInterest,jdbcType=DECIMAL},
+            unReceivePrincipal = #{unReceivePrincipal,jdbcType=DECIMAL},
+            unReturnAmount     = #{unReturnAmount,jdbcType=DECIMAL},
+            remainBorrowLimit  = #{remainBorrowLimit,jdbcType=DECIMAL}
         WHERE id = #{id,jdbcType=BIGINT}
     </update>
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">

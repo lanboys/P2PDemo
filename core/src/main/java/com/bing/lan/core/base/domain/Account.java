@@ -1,105 +1,36 @@
 package com.bing.lan.core.base.domain;
 
+import com.bing.lan.core.base.utils.BidConst;
+
 import java.math.BigDecimal;
 
-public class Account {
-    private Long id;
+import lombok.Getter;
+import lombok.Setter;
 
-    private String tradepassword;
+@Getter
+@Setter
+public class Account extends BaseDomain {
 
-    private BigDecimal usableamount;
+    private static final long serialVersionUID = 6760287512112252557L;
+    private int version;
+    private String tradePassword; // 交易密码
+    private BigDecimal usableAmount = BidConst.ZERO; // 可用余额
+    private BigDecimal freezedAmount = BidConst.ZERO; // 冻结金额
+    private BigDecimal unReceiveInterest = BidConst.ZERO; // 账户待收利息
+    private BigDecimal unReceivePrincipal = BidConst.ZERO; // 账户待收本金
+    private BigDecimal unReturnAmount = BidConst.ZERO; // 账户待还金额
+    private BigDecimal remainBorrowLimit = BidConst.ZERO; // 账户剩余授信额度
+    private BigDecimal borrowLimitAmount; // 授信额度（当前还可以信用借款额度）
 
-    private BigDecimal freezedamount;
-
-    private BigDecimal borrowlimitamount;
-
-    private Integer version;
-
-    private BigDecimal unreceiveinterest;
-
-    private BigDecimal unreceiveprincipal;
-
-    private BigDecimal unreturnamount;
-
-    private BigDecimal remainborrowlimit;
-
-    public Long getId() {
-        return id;
+    public BigDecimal getTotalAmount() {
+        return usableAmount.add(freezedAmount).add(unReceivePrincipal);
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getTradepassword() {
-        return tradepassword;
-    }
-
-    public void setTradepassword(String tradepassword) {
-        this.tradepassword = tradepassword == null ? null : tradepassword.trim();
-    }
-
-    public BigDecimal getUsableamount() {
-        return usableamount;
-    }
-
-    public void setUsableamount(BigDecimal usableamount) {
-        this.usableamount = usableamount;
-    }
-
-    public BigDecimal getFreezedamount() {
-        return freezedamount;
-    }
-
-    public void setFreezedamount(BigDecimal freezedamount) {
-        this.freezedamount = freezedamount;
-    }
-
-    public BigDecimal getBorrowlimitamount() {
-        return borrowlimitamount;
-    }
-
-    public void setBorrowlimitamount(BigDecimal borrowlimitamount) {
-        this.borrowlimitamount = borrowlimitamount;
-    }
-
-    public Integer getVersion() {
-        return version;
-    }
-
-    public void setVersion(Integer version) {
-        this.version = version;
-    }
-
-    public BigDecimal getUnreceiveinterest() {
-        return unreceiveinterest;
-    }
-
-    public void setUnreceiveinterest(BigDecimal unreceiveinterest) {
-        this.unreceiveinterest = unreceiveinterest;
-    }
-
-    public BigDecimal getUnreceiveprincipal() {
-        return unreceiveprincipal;
-    }
-
-    public void setUnreceiveprincipal(BigDecimal unreceiveprincipal) {
-        this.unreceiveprincipal = unreceiveprincipal;
-    }
-
-    public BigDecimal getUnreturnamount() {
-        return unreturnamount;
-    }
-
-    public void setUnreturnamount(BigDecimal unreturnamount) {
-        this.unreturnamount = unreturnamount;
-    }
-
-    public BigDecimal getRemainborrowlimit() {
-        return remainborrowlimit;
-    }
-
-    public void setRemainborrowlimit(BigDecimal remainborrowlimit) {
-        this.remainborrowlimit = remainborrowlimit;
+    public static Account empty(Long id) {
+        Account account = new Account();
+        account.setId(id);
+        account.setBorrowLimitAmount(BidConst.DEFALUT_BORROWLIMITAMOUNT);
+        account.setRemainBorrowLimit(BidConst.DEFALUT_BORROWLIMITAMOUNT);
+        return account;
     }
 }
