@@ -18,6 +18,6 @@
 
 <#if currentNav??>
 <script type="text/javascript">
-	<#--$(".navbar-nav li[id=${currentNav}]").addClass("active");-->
+	$(".navbar-nav li[id=${currentNav}]").addClass("active");
 </script>
 </#if>

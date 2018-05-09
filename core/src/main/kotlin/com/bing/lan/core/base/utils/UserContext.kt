@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession
 
 object UserContext {
 
-    val LOGIN_IN_SESSION = "LOGIN_IN_SESSION"
+    val LOGIN_IN_SESSION = "logininfo_session"
     val VERIFYCODE_IN_SESSION = "VERIFYCODE_IN_SESSION"
 
     private val session: HttpSession

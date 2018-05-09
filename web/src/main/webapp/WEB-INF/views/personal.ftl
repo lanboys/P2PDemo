@@ -6,7 +6,7 @@
 		<#include "common/links-tpl.ftl" />
 		<script type="text/javascript" src="/js/plugins/jquery.form.js"></script>
 		<link type="text/css" rel="stylesheet" href="/css/account.css" />
-		
+
 		<#--<script type="text/javascript">-->
 			<#--$(function(){-->
 				<#--<#if !userinfo.isBindPhone>-->
@@ -88,7 +88,7 @@
 		<!-- 网页导航 -->
 		<#assign currentNav="account" /> 
 		<#include "common/navbar-tpl.ftl" />
-		
+
 		<div class="container">
 			<div class="row">
 				<!--导航菜单-->
@@ -105,7 +105,7 @@
 									<img class="icon" src="images/person_icon.png" />
 								</div>
 								<div class="pull-left el-head">
-									<p>用户名： </p>
+									<p>用户名：${logininfo_session.username} </p>
 									<p>最后登录时间：2015-01-25 15:30:10</p>
 								</div>
 								<div class="pull-left" style="text-align: center;width: 400px;margin:30px auto 0px auto;">
@@ -114,31 +114,31 @@
 								</div>
 								<div class="clearfix"></div>
 							</div>
-							
+
 							<div class="row h4 account-info">
 								<div class="col-sm-4">
-									账户总额：<span class="text-primary"> 元</span>
+									账户总额：<span class="text-primary"> ${account.totalAmount}元</span>
 								</div>
 								<div class="col-sm-4">
-									可用金额：<span class="text-primary"> 元</span>
+									可用金额：<span class="text-primary"> ${account.usableAmount}元</span>
 								</div>
 								<div class="col-sm-4">
-									冻结金额：<span class="text-primary"> 元</span>
+									冻结金额：<span class="text-primary"> ${account.freezedAmount}元</span>
 								</div>
 							</div>
-							
+
 							<div class="row h4 account-info">
 								<div class="col-sm-4">
-									待收利息：<span class="text-primary"> 元</span>
+									待收利息：<span class="text-primary">${account.unReceiveInterest} 元</span>
 								</div>
 								<div class="col-sm-4">
-									待收本金：<span class="text-primary"> 元</span>
+									待收本金：<span class="text-primary"> ${account.unReceivePrincipal} 元</span>
 								</div>
 								<div class="col-sm-4">
-									待还本息：<span class="text-primary"> 元</span>
+									待还本息：<span class="text-primary"> ${account.unReturnAmount} 元</span>
 								</div>
 							</div>
-							
+
 							<div class="el-account-info top-margin">
 								<div class="row">
 									<div class="col-sm-4">
@@ -205,7 +205,7 @@
 													<#--<a id="goto_bindemail" href="javascript:;">立刻绑定</a>-->
 												<#--</p>-->
 												<#--</#if>-->
-												
+
 											</div>
 											<div class="clearfix"></div>
 											<p class="info">您可以设置邮箱来接收重要信息</p>
@@ -236,7 +236,7 @@
 				</div>
 			</div>
 		</div>
-	
+
 		<#--<#if !userinfo.isBindPhone>-->
 		<div class="modal fade" id="bindPhoneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
 		  <div class="modal-dialog" role="document">
@@ -270,7 +270,7 @@
 		  </div>
 		</div>
 		<#--</#if>-->
-		
+
 		<#--<#if !userinfo.isBindEmail>-->
 		<div class="modal fade" id="bindEmailModal" tabindex="-1" role="dialog" aria-labelledby="bindEmailModalLabel">
 		  <div class="modal-dialog" role="document">
