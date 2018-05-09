@@ -73,7 +73,7 @@ open class LogininfoServiceImpl : ILogininfoService {
             return userInfo
         } else {
             ipLogMapper.insert(ipLog)
-            throw ServiceRuntimeException("用户名或者密码错误！！")
+            throw ServiceRuntimeException("用户名或者密码错误!!")
         }
 
     }

@@ -25,11 +25,11 @@ open class PersonalController : BaseController() {
     lateinit var accountService: IAccountService
 
     @RequestMapping("/personal")
-    fun per(model: Model): String {
+    fun personal(model: Model): String {
 
         val logininfo = UserContext.getLogininfo()
         logininfo.id?.let { id ->
-            model.addAttribute("logininfo", userinfoService.get(id))
+            model.addAttribute("userinfo", userinfoService.get(id))
             model.addAttribute("account", accountService.get(id))
         }
         return "personal"
