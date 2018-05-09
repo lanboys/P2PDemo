@@ -1,4 +1,4 @@
-package com.bing.lan.core.base.domain;
+package com.bing.lan.core.base.query;
 
 import lombok.Getter;
 import lombok.Setter;

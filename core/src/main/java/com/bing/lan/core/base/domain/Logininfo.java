@@ -1,10 +1,13 @@
 package com.bing.lan.core.base.domain;
 
+import org.apache.ibatis.type.Alias;
+
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@Alias("Logininfo")
 public class Logininfo extends BaseDomain {
 
     public static final int STATE_NORMAL = 0;

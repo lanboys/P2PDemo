@@ -2,9 +2,11 @@ package com.bing.lan.core.base.service.impl
 
 import com.bing.lan.core.base.ServiceRuntimeException
 import com.bing.lan.core.base.domain.Account
+import com.bing.lan.core.base.domain.IpLog
 import com.bing.lan.core.base.domain.Logininfo
 import com.bing.lan.core.base.domain.Userinfo
 import com.bing.lan.core.base.mapper.AccountMapper
+import com.bing.lan.core.base.mapper.IpLogMapper
 import com.bing.lan.core.base.mapper.LogininfoMapper
 import com.bing.lan.core.base.mapper.UserinfoMapper
 import com.bing.lan.core.base.service.ILogininfoService
@@ -12,6 +14,7 @@ import com.bing.lan.core.base.utils.BidConst
 import com.bing.lan.core.base.utils.UserContext
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
+import java.util.*
 
 
 /**
@@ -30,6 +33,10 @@ open class LogininfoServiceImpl : ILogininfoService {
 
     @Autowired
     lateinit var logininfoMapper: LogininfoMapper
+
+
+    @Autowired
+    lateinit var ipLogMapper: IpLogMapper
 
     override fun register(username: String, password: String) {
         if (checkUsername(username, Logininfo.USERTYPE_NORMAL)) {
@@ -54,13 +61,21 @@ open class LogininfoServiceImpl : ILogininfoService {
         return count > 0
     }
 
-    override fun login(username: String, password: String, userType: Int): Logininfo {
+    override fun login(username: String, password: String, userType: Int, ip: String): Logininfo {
+        val ipLog = IpLog(username, Date(), ip, userType, null)
 
-        val userInfo: Logininfo = logininfoMapper.login(username, password, userType)
-                ?: throw ServiceRuntimeException("用户名或者密码错误！！")
+        val userInfo: Logininfo? = logininfoMapper.login(username, password, userType)
+        if (userInfo != null) {
+            UserContext.putLogininfo(userInfo)
+            ipLog.loginInfoId = userInfo.id
+            ipLog.loginState = IpLog.LOGINSTATE_SUCCESS
+            ipLogMapper.insert(ipLog)
+            return userInfo
+        } else {
+            ipLogMapper.insert(ipLog)
+            throw ServiceRuntimeException("用户名或者密码错误！！")
+        }
 
-        UserContext.putLogininfo(userInfo)
-        return userInfo
     }
 
     override fun hasAdmin(): Boolean {

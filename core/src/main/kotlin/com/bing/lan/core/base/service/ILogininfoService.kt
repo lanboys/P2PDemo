@@ -23,7 +23,7 @@ interface ILogininfoService {
     /**
      * 登录
      */
-    fun login(username: String, password: String, userType: Int): Logininfo
+    fun login(username: String, password: String, userType: Int, ip: String): Logininfo
 
 
     /**

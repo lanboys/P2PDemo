@@ -2,6 +2,8 @@ package com.bing.lan.core.base.domain;
 
 import com.alibaba.fastjson.JSONObject;
 
+import org.apache.ibatis.type.Alias;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,7 +16,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-//@Alias("SystemDictionaryItem")
+@Alias("SystemDictionaryItem")
 public class SystemDictionaryItem extends BaseDomain{
 
     private static final long serialVersionUID = 4520006109163647891L;

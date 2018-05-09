@@ -2,6 +2,7 @@
   <dictionary name="lanbing">
     <words>
       <w>logininfo</w>
+      <w>userinfo</w>
     </words>
   </dictionary>
 </component>

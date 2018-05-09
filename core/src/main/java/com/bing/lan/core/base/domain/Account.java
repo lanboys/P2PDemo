@@ -2,6 +2,8 @@ package com.bing.lan.core.base.domain;
 
 import com.bing.lan.core.base.utils.BidConst;
 
+import org.apache.ibatis.type.Alias;
+
 import java.math.BigDecimal;
 
 import lombok.Getter;
@@ -9,6 +11,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+@Alias("Account")
 public class Account extends BaseDomain {
 
     private static final long serialVersionUID = 6760287512112252557L;
