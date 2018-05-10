@@ -2,7 +2,6 @@ package com.bing.lan.core.business.service;
 
 import java.util.Date;
 
-
 public class VerifyCode {
 
 	private String phoneNumber;

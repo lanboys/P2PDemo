@@ -2,6 +2,7 @@ package com.bing.lan.web.controller;
 
 import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.IAccountService
+import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.IUserService
 import com.bing.lan.core.domain.ResultJSON
 import com.bing.lan.web.annotation.RequiredLogin
@@ -27,6 +28,9 @@ open class PersonalController : BaseController() {
     @Autowired
     lateinit var accountService: IAccountService
 
+    @Autowired
+    lateinit var sendVerifyCodeService: ISendVerifyCodeService
+
 
     @RequiredLogin
     @RequestMapping("/personal")
@@ -41,19 +45,22 @@ open class PersonalController : BaseController() {
     }
 
 
-
     @RequiredLogin
     @RequestMapping("/sendVerifyCode")
     @ResponseBody
-    fun sendVerifyCode(model: Model): ResultJSON {
-
-        println("发送验证码成功>>>>>>>>")
+    fun sendVerifyCode(phoneNumber: String): ResultJSON {
         val resultJSON = ResultJSON()
-        resultJSON.success=true
-        resultJSON.msg="发送成功"
-        resultJSON.data="验证码为 000000"
+        try {
+            sendVerifyCodeService.sendVerifyCode(phoneNumber)
+            resultJSON.success = true
+            resultJSON.msg = "发送成功"
+            resultJSON.data = "验证码为 000000"
+            println("发送验证码>>>>>>>>成功: 验证码为 000000")
+        } catch (e: Exception) {
+            resultJSON.success = false
+            resultJSON.msg = e.localizedMessage
+            println("发送验证码>>>>>>>>失败: " + e.localizedMessage)
+        }
         return resultJSON
     }
-
-
 }

@@ -14,9 +14,18 @@
     <context:component-scan base-package="com.bing.lan.core"/>
 
     <!-- 引入配置文件 -->
+    <!--<context:property-placeholder location="classpath:db.properties"/>-->
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:db.properties"/>
+
+        <!--<property name="location" value="classpath:db.properties"/>-->
+        <property name="locations">
+            <list>
+                <value>classpath:db.properties</value>
+                <!-- 发送短信配置 -->
+                <value>classpath:m5c.properties</value>
+            </list>
+        </property>
     </bean>
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
