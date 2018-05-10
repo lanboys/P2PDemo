@@ -8,80 +8,82 @@
     <script type="text/javascript" src="/js/plugins/jquery.form.js"></script>
     <link type="text/css" rel="stylesheet" href="/css/account.css"/>
 
-<#--<script type="text/javascript">-->
-<#--$(function(){-->
-<#--<#if !userinfo.isBindPhone>-->
-<#--$("#goto_bindphone").click(function(){-->
-<#--$("#bindPhoneModal").modal('show');-->
-<#--});-->
-<#---->
-<#--$("#sendVerifyCode").click(function(){-->
-<#--var pn=$("#phoneNumber");-->
-<#--var _me=$(this);-->
-<#--if(pn.val()){-->
-<#--_me.attr("disabled","disabled");-->
-<#--$.ajax({-->
-<#--dataType:"json",-->
-<#--type:"post",-->
-<#--url:"/sendVerifyCode.do",-->
-<#--data:{phoneNumber:pn.val()},-->
-<#--success:function(data){-->
-<#--if(data.success){-->
-<#--var time=5;-->
-<#--var timer=window.setInterval(function(){-->
-<#--time--;-->
-<#--if(time>=0){-->
-<#--_me.html(time+"秒后重新发送");-->
-<#--}else{-->
-<#--_me.html("重新发送验证码");-->
-<#--_me.attr("disabled",false);-->
-<#--window.clearInterval(timer);-->
-<#--}-->
-<#--},1000);-->
-<#--}else{-->
-<#--_me.attr("disabled",false);-->
-<#--$.messager.alert("提示",data.msg);-->
-<#--}-->
-<#--}-->
-<#--});-->
-<#--}-->
-<#--});-->
-<#---->
-<#--$("#bindPhone").click(function(){-->
-<#--$("#bindForm").ajaxSubmit(function(data){-->
-<#--if(data.success){-->
-<#--$.messager.confirm("提示","手机绑定成功!",function(){-->
-<#--window.location.reload();-->
-<#--});-->
-<#--}else{-->
-<#--$.messager.popup("绑定手机失败");-->
-<#--}-->
-<#--});	-->
-<#--});-->
-<#--</#if>-->
-<#---->
-<#---->
-<#--<#if !userinfo.isBindEmail>-->
-<#--$("#goto_bindemail").click(function(){-->
-<#--$("#bindEmailModal").modal("show");-->
-<#--});-->
-<#---->
-<#--$("#bindEmail").click(function(){-->
-<#--if($("#email").val()){-->
-<#--$("#bindEmailForm").ajaxSubmit(function(data){-->
-<#--if(data.success){-->
-<#--$.messager.confirm("提示","已发送验证邮件,请尽快激活!",function(){-->
-<#--window.location.reload();-->
-<#--});-->
-<#--}else{-->
-<#--$.messager.popup("发送验证邮件失败");-->
-<#--}-->
-<#--});-->
-<#--}-->
-<#--});-->
-<#--</#if>-->
-<#--});-->
-<#--</script>-->
+    <script type="text/javascript">
+        $(function () {
+            <#if !userinfo.isBindPhone>
+            $("#goto_bindphone").click(function () {
+                $("#bindPhoneModal").modal('show');
+            });
+
+            $("#sendVerifyCode").click(function () {
+                var pn = $("#phoneNumber");
+                var _me = $(this);
+                if (pn.val()) {
+                    _me.attr("disabled", "disabled");
+                    $.ajax({
+                        dataType: "json",
+                        type: "post",
+                        url: "/sendVerifyCode.do",
+                        data: {phoneNumber: pn.val()},
+                        success: function (data) {
+                            if (data.success) {
+                                var time = 5;
+                                var timer = window.setInterval(function () {
+                                    time--;
+                                    if (time >= 0) {
+                                        _me.html(time + "秒后重新发送");
+                                    } else {
+                                        _me.html("重新发送验证码");
+                                        _me.attr("disabled", false);
+                                        window.clearInterval(timer);
+                                    }
+                                }, 1000);
+                            } else {
+                                _me.attr("disabled", false);
+                                $.messager.alert("提示", data.msg);
+                            }
+                        }
+                    });
+                } else {
+                    $.messager.alert("提示", "请先填写手机号码");
+                }
+            });
+
+            $("#bindPhone").click(function () {
+                $("#bindForm").ajaxSubmit(function (data) {
+                    if (data.success) {
+                        $.messager.confirm("提示", "手机绑定成功!", function () {
+                            window.location.reload();
+                        });
+                    } else {
+                        $.messager.popup("绑定手机失败");
+                    }
+                });
+            });
+            </#if>
+
+
+            <#if !userinfo.isBindEmail>
+            $("#goto_bindemail").click(function () {
+                $("#bindEmailModal").modal("show");
+            });
+
+            $("#bindEmail").click(function () {
+                if ($("#email").val()) {
+                    $("#bindEmailForm").ajaxSubmit(function (data) {
+                        if (data.success) {
+                            $.messager.confirm("提示", "已发送验证邮件,请尽快激活!", function () {
+                                window.location.reload();
+                            });
+                        } else {
+                            $.messager.popup("发送验证邮件失败");
+                        }
+                    });
+                }
+            });
+            </#if>
+        });
+    </script>
 </head>
 <body>
 <!-- 网页顶部导航 -->
@@ -150,17 +152,17 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>实名认证</h5>
-                                    <#--<#if userinfo.realAuth>-->
+                                    <#if userinfo.realAuth>
                                         <p>
                                             已认证
                                             <a href="/realAuth.do">查看</a>
                                         </p>
-                                    <#--<#else>-->
-                                    <#--<p>-->
-                                    <#--未认证-->
-                                    <#--<a href="/realAuth.do">马上认证</a>-->
-                                    <#--</p>-->
-                                    <#--</#if>-->
+                                    <#else>
+                                         <p>
+                                             未认证
+                                             <a href="/realAuth.do">马上认证</a>
+                                         </p>
+                                    </#if>
                                     </div>
                                     <div class="clearfix"></div>
                                     <p class="info">实名认证之后才能在平台投资</p>
@@ -173,17 +175,17 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>手机认证</h5>
-                                    <#--<#if userinfo.isBindPhone>-->
+                                    <#if userinfo.isBindPhone>
                                         <p>
                                             已认证
                                             <a href="#">查看</a>
                                         </p>
-                                    <#--<#else>-->
-                                    <#--<p>-->
-                                    <#--未认证-->
-                                    <#--<a id="goto_bindphone" href="javascript:;">立刻绑定</a>-->
-                                    <#--</p>-->
-                                    <#--</#if>-->
+                                    <#else>
+                                    <p>
+                                        未认证
+                                        <a id="goto_bindphone" href="javascript:;">立刻绑定</a>
+                                    </p>
+                                    </#if>
                                     </div>
                                     <div class="clearfix"></div>
                                     <p class="info">可以收到系统操作信息,并增加使用安全性</p>
@@ -196,17 +198,17 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>邮箱认证</h5>
-                                    <#--<#if userinfo.isBindEmail>-->
+                                    <#if userinfo.isBindEmail>
                                         <p>
                                             已认证
                                             <a href="#">查看</a>
                                         </p>
-                                    <#--<#else>-->
-                                    <#--<p>-->
-                                    <#--未认证-->
-                                    <#--<a id="goto_bindemail" href="javascript:;">立刻绑定</a>-->
-                                    <#--</p>-->
-                                    <#--</#if>-->
+                                    <#else>
+                                    <p>
+                                        未认证
+                                        <a id="goto_bindemail" href="javascript:;">立刻绑定</a>
+                                    </p>
+                                    </#if>
 
                                     </div>
                                     <div class="clearfix"></div>
@@ -239,7 +241,7 @@
     </div>
 </div>
 
-<#--<#if !userinfo.isBindPhone>-->
+<#if !userinfo.isBindPhone>
 <div class="modal fade" id="bindPhoneModal" tabindex="-1" role="dialog"
      aria-labelledby="exampleModalLabel">
     <div class="modal-dialog" role="document">
@@ -277,9 +279,9 @@
         </div>
     </div>
 </div>
-<#--</#if>-->
+</#if>
 
-<#--<#if !userinfo.isBindEmail>-->
+<#if !userinfo.isBindEmail>
 <div class="modal fade" id="bindEmailModal" tabindex="-1" role="dialog"
      aria-labelledby="bindEmailModalLabel">
     <div class="modal-dialog" role="document">
@@ -307,7 +309,7 @@
         </div>
     </div>
 </div>
-<#--</#if>-->
+</#if>
 
 	<#include "common/footer-tpl.ftl" />
 </body>
