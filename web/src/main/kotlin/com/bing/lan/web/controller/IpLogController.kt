@@ -4,6 +4,7 @@ import com.bing.lan.core.base.domain.Logininfo
 import com.bing.lan.core.base.query.IpLogQueryObject
 import com.bing.lan.core.base.service.IIpLogService
 import com.bing.lan.core.base.utils.UserContext
+import com.bing.lan.web.annotation.RequiredLogin
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -20,6 +21,7 @@ open class IpLogController : BaseController() {
     @Autowired
     lateinit var ipLogService: IIpLogService
 
+    @RequiredLogin
     @RequestMapping("/iplog")//  'qo' 在前端页面中能直接拿到
     fun ipLog(@ModelAttribute("qo") queryObject: IpLogQueryObject, model: Model): String {
 

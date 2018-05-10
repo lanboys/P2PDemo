@@ -3,6 +3,7 @@ package com.bing.lan.web.controller;
 import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.IAccountService
 import com.bing.lan.core.business.service.IUserService
+import com.bing.lan.web.annotation.RequiredLogin
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -24,6 +25,8 @@ open class PersonalController : BaseController() {
     @Autowired
     lateinit var accountService: IAccountService
 
+
+    @RequiredLogin
     @RequestMapping("/personal")
     fun personal(model: Model): String {
 
