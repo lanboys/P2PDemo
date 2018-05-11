@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession
 
 object UserContext {
 
-     public val LOGIN_IN_SESSION = "logininfo_session"
+    public val LOGIN_IN_SESSION = "logininfo_session"
     public val VERIFYCODE_IN_SESSION = "VERIFYCODE_IN_SESSION"
 
     private val session: HttpSession
@@ -29,15 +29,15 @@ object UserContext {
         session.setAttribute(LOGIN_IN_SESSION, logininfo)
     }
 
-    fun getLogininfo(): Logininfo {
-        return session.getAttribute(LOGIN_IN_SESSION) as Logininfo
+    fun getLogininfo(): Logininfo? {
+        return session.getAttribute(LOGIN_IN_SESSION) as Logininfo?
     }
 
     fun putVerifyCode(code: VerifyCode) {
         session.setAttribute(VERIFYCODE_IN_SESSION, code)
     }
 
-    fun getVerifyCode(): VerifyCode {
-        return session.getAttribute(VERIFYCODE_IN_SESSION) as VerifyCode
+    fun getVerifyCode(): VerifyCode? {
+        return session.getAttribute(VERIFYCODE_IN_SESSION) as VerifyCode?
     }
 }

@@ -13,22 +13,22 @@ import lombok.Setter;
 @Alias("Userinfo")
 public class Userinfo extends BaseDomain {
 
-    private static final long serialVersionUID = -2194938919842714855L;
-    private int version;// 版本号
-    private Long bitState = 0l; // 位状态
-    private String realName; // 对应实名认证中的真实姓名
-    private String idNumber; // 对应实名认证中的身份证号
-    private String email; // 用户邮箱
-    private String phoneNumber = ""; // 手机号
-    private int authScore = 0;//用户当前认证分数
-    private Long realauthId;   //用户有效的实名认证对象
+    public static final long serialVersionUID = -2194938919842714855L;
+    public int version;// 版本号
+    public Long bitState = 0l; // 位状态
+    public String realName; // 对应实名认证中的真实姓名
+    public String idNumber; // 对应实名认证中的身份证号
+    public String email; // 用户邮箱
+    public String phoneNumber = ""; // 手机号
+    public int authScore = 0;//用户当前认证分数
+    public Long realauthId;   //用户有效的实名认证对象
 
     // ====================== 会员基本资料 ===================
-    private SystemDictionaryItem incomeGrade; // 月收入
-    private SystemDictionaryItem marriage; // 婚姻情况
-    private SystemDictionaryItem kidCount; // 子女情况
-    private SystemDictionaryItem educationBackground; // 学历
-    private SystemDictionaryItem houseCondition; // 住房条件
+    public SystemDictionaryItem incomeGrade; // 月收入
+    public SystemDictionaryItem marriage; // 婚姻情况
+    public SystemDictionaryItem kidCount; // 子女情况
+    public SystemDictionaryItem educationBackground; // 学历
+    public SystemDictionaryItem houseCondition; // 住房条件
 
     public static Userinfo empty(Long id) {
         Userinfo userinfo = new Userinfo();

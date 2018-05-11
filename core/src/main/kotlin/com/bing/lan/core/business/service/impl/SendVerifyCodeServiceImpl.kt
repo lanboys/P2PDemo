@@ -1,6 +1,8 @@
 package com.bing.lan.core.business.service.impl
 
 import com.bing.lan.core.base.ServiceRuntimeException
+import com.bing.lan.core.base.utils.DateUtil
+import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.VerifyCode
 import okhttp3.FormBody
@@ -8,6 +10,8 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.logging.HttpLoggingInterceptor
 import org.springframework.stereotype.Service
+import java.util.*
+import java.util.UUID
 
 
 /**
@@ -22,17 +26,46 @@ open class SendVerifyCodeServiceImpl : ISendVerifyCodeService {
 //    lateinit var url: String
 
 
-    override fun verifyCode(phoneNumber: String, verifyCode: String): Boolean {
-        return false
+    override fun verifyCode(phoneNumber: String, verifyCode: String) {
+        val vc = UserContext.getVerifyCode()
+        val ret = (vc != null && vc.phoneNumber == phoneNumber
+                && vc.randomCode == verifyCode
+                && DateUtil.getSecondsBetweenDates(vc.lastSendTime, Date()) <= 60 * 3)
+        if (!ret) {
+            throw ServiceRuntimeException("验证码不正确")
+        }
     }
 
     override fun sendVerifyCode(phoneNumber: String) {
+        if (checkUserCanSendVerifyCode()) {
+            val randomCode = UUID.randomUUID().toString().substring(0, 4)
+            val sb = StringBuilder(100).append("您的手机验证码为:")
+                    .append(randomCode).append(",请在3分钟之内输入有效!")
+            val vc = VerifyCode(phoneNumber, randomCode, Date(), sb.toString())
+            sendMessage(vc)
+        } else {
+            throw ServiceRuntimeException("你发送短信的频率太高")
+        }
+    }
+
+    /**
+     * 5 秒可以重新发送
+     */
+    private fun checkUserCanSendVerifyCode(): Boolean {
+        val vc = UserContext.getVerifyCode()
+        return vc == null || DateUtil.getSecondsBetweenDates(
+                vc.lastSendTime, Date()) > 5L
+    }
+
+    private fun sendMessage(code: VerifyCode) {
+
         val host = "http://localhost:8085"
         val sb = StringBuilder().append("username=").append("lan")
                 .append("&password=").append("bing")
                 .append("&apiKey=").append("apiKey")
-                .append("&mobile=").append("110")
-                .append("&content=").append("我是p2p平台发送的短信")
+                .append("&mobile=").append(code.phoneNumber)
+                .append("&code=").append(code.randomCode)
+                .append("&content=").append(code.content)
 
 //        val urlConnection = URL(host).openConnection() as HttpURLConnection
 //        urlConnection.requestMethod = "POST"
@@ -49,8 +82,7 @@ open class SendVerifyCodeServiceImpl : ISendVerifyCodeService {
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
 
         val okHttpClient = OkHttpClient
-                .Builder().
-                addInterceptor(loggingInterceptor)
+                .Builder().addInterceptor(loggingInterceptor)
                 .build()
         val builder = Request.Builder()
 
@@ -65,8 +97,9 @@ open class SendVerifyCodeServiceImpl : ISendVerifyCodeService {
                 .add("username", "lan")
                 .add("password", "bing")
                 .add("apiKey", "apiKey")
-                .add("mobile", "110")
-                .add("content", "我是p2p平台发送的短信")
+                .add("mobile", code.phoneNumber)
+                .add("code", code.randomCode)
+                .add("content", code.content)
                 .build()
 
         val request = builder
@@ -77,7 +110,10 @@ open class SendVerifyCodeServiceImpl : ISendVerifyCodeService {
         val newCall = okHttpClient.newCall(request)
         val response = newCall.execute()
         if (!response.isSuccessful) {
-            throw ServiceRuntimeException("短信发送失败")
+            throw ServiceRuntimeException("短信网关服务异常")
+        } else {
+            println(code)
+            UserContext.putVerifyCode(code)
         }
 
 //        newCall.enqueue(object : Callback {
@@ -90,14 +126,6 @@ open class SendVerifyCodeServiceImpl : ISendVerifyCodeService {
 //                print("请求成功")
 //            }
 //        })
-    }
-
-    private fun checkUserCanSendVerifyCode(): Boolean {
-        return false
-    }
-
-    private fun sendMessage(code: VerifyCode) {
-
     }
 }
 

@@ -2,10 +2,13 @@ package com.bing.lan.core.business.service.impl
 
 import com.bing.lan.core.base.domain.Userinfo
 import com.bing.lan.core.base.mapper.UserinfoMapper
+import com.bing.lan.core.base.utils.BitStatesUtils
+import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.IUserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
+
 
 /**
  * Created by 蓝兵 on 2018/5/7.
@@ -18,7 +21,8 @@ class UserServiceImpl : IUserService {
     lateinit var userinfoMapper: UserinfoMapper
 
     @Autowired
-    lateinit var verifyCodeService: ISendVerifyCodeService
+    lateinit var sendVerifyCodeService: ISendVerifyCodeService
+
 
     override fun update(userinfo: Userinfo) {
         val ret = userinfoMapper.updateByPrimaryKey(userinfo)
@@ -32,9 +36,13 @@ class UserServiceImpl : IUserService {
         return userinfoMapper.selectByPrimaryKey(id)
     }
 
-    override fun bindPhone(phoneNumber: String, verifyCode: String): Boolean {
+    override fun bindPhone(phoneNumber: String, verifyCode: String) {
+        sendVerifyCodeService.verifyCode(phoneNumber, verifyCode)
 
-        return false
+        val ui = get(UserContext.getLogininfo()!!.id)
+        ui.phoneNumber = phoneNumber
+        ui.addState(BitStatesUtils.OP_BIND_PHONE)
+        update(ui)
     }
 
     override fun updateBasicInfo(userinfo: Userinfo) {

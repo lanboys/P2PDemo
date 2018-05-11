@@ -12,7 +12,7 @@ interface IUserService {
 
     operator fun get(id: Long): Userinfo
 
-    fun bindPhone(phoneNumber: String, verifyCode: String): Boolean
+    fun bindPhone(phoneNumber: String, verifyCode: String)
 
     /**
      * 修改基本信息

@@ -37,7 +37,7 @@ open class PersonalController : BaseController() {
     fun personal(model: Model): String {
 
         val logininfo = UserContext.getLogininfo()
-        logininfo.id?.let { id ->
+        logininfo!!.id?.let { id ->
             model.addAttribute("userinfo", userinfoService.get(id))
             model.addAttribute("account", accountService.get(id))
         }
@@ -54,12 +54,26 @@ open class PersonalController : BaseController() {
             sendVerifyCodeService.sendVerifyCode(phoneNumber)
             resultJSON.success = true
             resultJSON.msg = "发送成功"
-            resultJSON.data = "验证码为 000000"
-            println("发送验证码>>>>>>>>成功: 验证码为 000000")
         } catch (e: Exception) {
             resultJSON.success = false
-            resultJSON.msg = e.localizedMessage
+            resultJSON.msg = "发送失败：" + e.localizedMessage
             println("发送验证码>>>>>>>>失败: " + e.localizedMessage)
+        }
+        return resultJSON
+    }
+
+    @RequiredLogin
+    @RequestMapping("/bindPhone")
+    @ResponseBody
+    fun bindPhone(phoneNumber: String, verifyCode: String): ResultJSON {
+        val resultJSON = ResultJSON()
+        try {
+            userinfoService.bindPhone(phoneNumber, verifyCode)
+            resultJSON.success = true
+            resultJSON.msg = "绑定成功"
+        } catch (e: Exception) {
+            resultJSON.success = false
+            resultJSON.msg = "绑定失败：" + e.localizedMessage
         }
         return resultJSON
     }

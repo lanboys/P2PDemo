@@ -16,5 +16,5 @@ interface ISendVerifyCodeService {
      * @param phoneNumber
      * @param verifyCode
      */
-    fun verifyCode(phoneNumber: String, verifyCode: String): Boolean
+    fun verifyCode(phoneNumber: String, verifyCode: String)
 }

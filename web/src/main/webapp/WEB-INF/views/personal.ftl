@@ -56,7 +56,7 @@
                             window.location.reload();
                         });
                     } else {
-                        $.messager.popup("绑定手机失败");
+                        $.messager.popup(data.msg);
                     }
                 });
             });
@@ -76,7 +76,7 @@
                                 window.location.reload();
                             });
                         } else {
-                            $.messager.popup("发送验证邮件失败");
+                            $.messager.popup(data.msg);
                         }
                     });
                 }
