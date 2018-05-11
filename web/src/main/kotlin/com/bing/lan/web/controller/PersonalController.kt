@@ -2,6 +2,7 @@ package com.bing.lan.web.controller;
 
 import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.IAccountService
+import com.bing.lan.core.business.service.IEmailActiveService
 import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.IUserService
 import com.bing.lan.core.domain.ResultJSON
@@ -24,13 +25,14 @@ open class PersonalController : BaseController() {
     @Autowired
     lateinit var userinfoService: IUserService
 
-
     @Autowired
     lateinit var accountService: IAccountService
 
     @Autowired
     lateinit var sendVerifyCodeService: ISendVerifyCodeService
 
+    @Autowired
+    lateinit var emailActiveService: IEmailActiveService
 
     @RequiredLogin
     @RequestMapping("/personal")
@@ -74,6 +76,21 @@ open class PersonalController : BaseController() {
         } catch (e: Exception) {
             resultJSON.success = false
             resultJSON.msg = "绑定失败：" + e.localizedMessage
+        }
+        return resultJSON
+    }
+
+    @RequiredLogin
+    @RequestMapping("/bindEmail")
+    @ResponseBody
+    fun bindEmail(email: String): ResultJSON {
+        val resultJSON = ResultJSON()
+        try {
+            emailActiveService.sendActiveEmail(email)
+            resultJSON.success = true
+        } catch (e: Exception) {
+            resultJSON.success = false
+            resultJSON.msg = "发送失败：" + e.localizedMessage
         }
         return resultJSON
     }
