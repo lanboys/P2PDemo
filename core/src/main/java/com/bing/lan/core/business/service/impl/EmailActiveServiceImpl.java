@@ -25,19 +25,24 @@ import javax.mail.internet.MimeMessage;
 @Service
 public class EmailActiveServiceImpl implements IEmailActiveService {
 
-    @Value("${mail.host}")
+    //@Value("${mail.host}")
+    @Value("#{propertiesBean['mail.host']}")
     private String host;
 
-    @Value("${mail.from}")
+    //@Value("${mail.from}")
+    @Value("#{propertiesBean['mail.from']}")
     private String from;
 
-    @Value("${mail.siteurl}")
+    //@Value("${mail.siteurl}")
+    @Value("#{propertiesBean['mail.siteurl']}")
     private String siteurl;
 
-    @Value("${mail.username}")
+    //@Value("${mail.username}")
+    @Value("#{propertiesBean['mail.username']}")
     private String username;
 
-    @Value("${mail.password}")
+    //@Value("${mail.password}")
+    @Value("#{propertiesBean['mail.password']}")
     private String password;
 
     @Autowired
@@ -66,8 +71,8 @@ public class EmailActiveServiceImpl implements IEmailActiveService {
     private void sendEmail(EmailActive mail) throws Exception {
         StringBuilder content = new StringBuilder(100)
                 .append("<html><head></head><body><h1>这是你的邮箱激活邮件,请点击<a href='")
-                .append("http://localhost:8085/").append("checkMailActive.do?code=")
-                //.append(siteurl).append("checkMailActive.do?code=")
+                //.append("http://localhost:8085/").append("checkMailActive.do?code=")
+                .append(siteurl).append("checkMailActive.do?code=")
                 .append(mail.getUuidcode())
                 .append("'>这里</a>,激活邮箱.有效期为3天!<h1></body></html>");
 
@@ -80,18 +85,18 @@ public class EmailActiveServiceImpl implements IEmailActiveService {
         MimeMessage message = sender.createMimeMessage();
         MimeMessageHelper messageHelper = new MimeMessageHelper(message, "UTF-8");
         messageHelper.setTo(mail.getEmail());
-        messageHelper.setFrom("Admin@android.com");
-        //messageHelper.setFrom(from);
+        //messageHelper.setFrom("Admin@android.com");
+        messageHelper.setFrom(from);
         messageHelper.setSubject("激活你的邮箱");
         messageHelper.setText(content.toString(), true);
 
-        sender.setHost("127.0.0.1");
-        sender.setUsername("Admin");
-        sender.setPassword("1111");
+        //sender.setHost("127.0.0.1");
+        //sender.setUsername("Admin");
+        //sender.setPassword("1111");
 
-        //sender.setHost(host);
-        //sender.setUsername(username);
-        //sender.setPassword(password);
+        sender.setHost(host);
+        sender.setUsername(username);
+        sender.setPassword(password);
 
 
         sender.setJavaMailProperties(p);
