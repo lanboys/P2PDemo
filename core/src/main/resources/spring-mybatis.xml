@@ -15,10 +15,16 @@
 
     <!-- 引入配置文件 -->
     <!--<context:property-placeholder location="classpath:db.properties"/>-->
-    <bean id="propertyConfigurer"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <!--PropertiesFactoryBean-->
+    <!--PropertyPlaceholderConfigurer-->
 
+    <!--id="propertyConfigurer"-->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+
+        <!-- 配置单个配置文件 -->
         <!--<property name="location" value="classpath:db.properties"/>-->
+
+        <!-- 配置多个配置文件 -->
         <property name="locations">
             <list>
                 <value>classpath:db.properties</value>

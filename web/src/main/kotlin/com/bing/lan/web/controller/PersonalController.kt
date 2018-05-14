@@ -94,4 +94,17 @@ open class PersonalController : BaseController() {
         }
         return resultJSON
     }
+
+    @RequestMapping("/checkMailActive")
+    fun checkMailActive(code: String, model: Model): String {
+        try {
+            emailActiveService.bindEmail(code)
+            model.addAttribute("success", true)
+        } catch (e: Exception) {
+            model.addAttribute("success", false)
+            model.addAttribute("msg", e.message)
+        }
+
+        return "checkmail_result"
+    }
 }
