@@ -2,7 +2,7 @@ package com.bing.lan.mgr.controller
 
 import com.bing.lan.core.base.domain.Logininfo
 import com.bing.lan.core.base.service.ILogininfoService
-import com.bing.lan.core.domain.ResultJSON
+import com.bing.lan.core.base.domain.ResultJSON
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping

@@ -25,7 +25,7 @@ open class IpLogController : BaseController() {
     @RequestMapping("/iplog")//  'qo' 在前端页面中能直接拿到
     fun ipLog(@ModelAttribute("qo") queryObject: IpLogQueryObject, model: Model): String {
 
-        queryObject.username = UserContext.getLogininfo()!!.getUsername()
+        queryObject.username = UserContext.getLogininfo()!!.username
         queryObject.isLike = false
         queryObject.userType = Logininfo.USERTYPE_NORMAL
 

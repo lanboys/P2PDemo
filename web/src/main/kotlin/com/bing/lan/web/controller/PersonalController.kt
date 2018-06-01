@@ -1,11 +1,11 @@
 package com.bing.lan.web.controller;
 
+import com.bing.lan.core.base.domain.ResultJSON
 import com.bing.lan.core.base.utils.UserContext
 import com.bing.lan.core.business.service.IAccountService
 import com.bing.lan.core.business.service.IEmailActiveService
 import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.IUserService
-import com.bing.lan.core.domain.ResultJSON
 import com.bing.lan.web.annotation.RequiredLogin
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
@@ -39,9 +39,9 @@ open class PersonalController : BaseController() {
     fun personal(model: Model): String {
 
         val logininfo = UserContext.getLogininfo()
-        logininfo!!.id?.let { id ->
-            model.addAttribute("userinfo", userinfoService.get(id))
-            model.addAttribute("account", accountService.get(id))
+        logininfo!!.id?.let { it ->
+            model.addAttribute("userinfo", userinfoService.getUserinfo(it))
+            model.addAttribute("account", accountService.getAccount(it))
         }
         return "personal"
     }

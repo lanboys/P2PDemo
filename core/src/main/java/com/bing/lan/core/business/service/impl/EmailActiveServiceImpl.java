@@ -109,8 +109,8 @@ public class EmailActiveServiceImpl implements IEmailActiveService {
         if (email != null
                 && DateUtil.getSecondsBetweenDates(email.getSendDate(),
                 new Date()) <= 60 * 60 * 24 * 3) {
-            Userinfo user = this.userService.get(email.getLogininfoId());
-            if (!user.getIsBindEmail()) {
+            Userinfo user = this.userService.getUserinfo(email.getLogininfoId());
+            if (!user.isBindEmail()) {
                 user.setEmail(email.getEmail());
                 user.addState(BitStatesUtils.OP_BIND_EMAIL);
                 this.userService.update(user);
