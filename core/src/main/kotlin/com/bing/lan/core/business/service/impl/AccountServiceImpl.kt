@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service
  * Created by 蓝兵 on 2018/5/7.
  */
 @Service
-class AccountServiceImpl : IAccountService {
+open class AccountServiceImpl : IAccountService {
 
     @Autowired
     lateinit var accountMapper: AccountMapper
@@ -23,7 +23,7 @@ class AccountServiceImpl : IAccountService {
         }
     }
 
-    override fun get(id: Long?): Account {
+    override fun getAccount(id: Long): Account {
         return accountMapper.selectByPrimaryKey(id)
     }
 }

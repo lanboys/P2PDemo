@@ -10,5 +10,5 @@ interface IAccountService {
 
     fun update(account: Account)
 
-    operator fun get(id: Long?): Account
+    fun getAccount(id: Long): Account
 }

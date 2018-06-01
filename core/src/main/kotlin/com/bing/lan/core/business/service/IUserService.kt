@@ -10,7 +10,7 @@ interface IUserService {
 
     fun update(userinfo: Userinfo)
 
-    operator fun get(id: Long): Userinfo
+    fun getUserinfo(id: Long): Userinfo
 
     fun bindPhone(phoneNumber: String, verifyCode: String)
 

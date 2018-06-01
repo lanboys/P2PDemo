@@ -11,12 +11,12 @@
 	<li class="list-group-item">
 		<a href="#"><span class="text-title">我的账户</span></a>
 		<ul class="in">
-			<li name="account"><a href="/personal.do">账户信息</a></li>
-			<li name="realAuth"><a href="/realAuth.do">实名认证</a></li>
-			<li name="userFile"><a href="/userFile.do">风控资料认证</a></li>
+			<li name="account"><a href="personal.do">账户信息</a></li>
+			<li name="realAuth"><a href="realAuth.do">实名认证</a></li>
+			<li name="userFile"><a href="userFile.do">风控资料认证</a></li>
 			<li name="bankInfo"><a href="#">银行卡管理</a></li>
-			<li name="iplog"><a href="/iplog.do">登录记录</a></li>
-			<li name="userInfo"><a href="/basicInfo.do"> <span>个人资料</span></a></li>
+			<li name="iplog"><a href="iplog.do">登录记录</a></li>
+			<li name="userInfo"><a href="basicInfo.do"> <span>个人资料</span></a></li>
 		</ul>
 	</li>
 	<li class="list-group-item">

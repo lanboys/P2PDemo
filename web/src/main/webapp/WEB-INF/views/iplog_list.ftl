@@ -6,10 +6,10 @@
     <title>蓝源Eloan-P2P平台</title>
 		<#include "common/links-tpl.ftl" />
 
-    <link type="text/css" rel="stylesheet" href="/css/account.css"/>
-    <script type="text/javascript" src="/js/plugins/jquery.twbsPagination.min.js"></script>
-    <script type="text/javascript" src="/js/plugins-override.js"></script>
-    <script type="text/javascript" src="/js/My97DatePicker/WdatePicker.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/account.css"/>
+    <script type="text/javascript" src="js/plugins/jquery.twbsPagination.min.js"></script>
+    <script type="text/javascript" src="js/plugins-override.js"></script>
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript">
         $(function () {
             $("#pagination").twbsPagination({
@@ -53,7 +53,7 @@
         </div>
         <!-- 功能页面 -->
         <div class="col-sm-9">
-            <form action="/iplog.do" name="searchForm" id="searchForm" class="form-inline"
+            <form action="iplog.do" name="searchForm" id="searchForm" class="form-inline"
                   method="post">
                 <input type="hidden" id="currentPage" name="currentPage" value=""/>
                 <div class="form-group">
@@ -99,10 +99,10 @@
                     <tbody>
 								<#list pageResult.result as data>
                                 <tr>
-                                    <td>${data.username}</a></td>
+                                    <td>${data.username!""}</a></td>
                                     <td>${data.loginTime?string("yyyy-MM-dd HH:mm:SS")}</td>
-                                    <td>${data.ip}</td>
-                                    <td>${data.displayState}</td>
+                                    <td>${data.ip!""}</td>
+                                    <td>${data.displayState!""}</td>
                                 </tr>
                                 </#list>
                     </tbody>

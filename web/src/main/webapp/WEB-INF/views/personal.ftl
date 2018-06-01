@@ -5,12 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>蓝源Eloan-P2P平台</title>
 		<#include "common/links-tpl.ftl" />
-    <script type="text/javascript" src="/js/plugins/jquery.form.js"></script>
-    <link type="text/css" rel="stylesheet" href="/css/account.css"/>
+    <script type="text/javascript" src="js/plugins/jquery.form.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/account.css"/>
 
     <script type="text/javascript">
         $(function () {
-            <#if !userinfo.isBindPhone>
+            <#if !isBindPhone>
             $("#goto_bindphone").click(function () {
                 $("#bindPhoneModal").modal('show');
             });
@@ -23,7 +23,7 @@
                     $.ajax({
                         dataType: "json",
                         type: "post",
-                        url: "/sendVerifyCode.do",
+                        url: "sendVerifyCode.do",
                         data: {phoneNumber: pn.val()},
                         success: function (data) {
                             if (data.success) {
@@ -63,7 +63,7 @@
             </#if>
 
 
-            <#if !userinfo.isBindEmail>
+            <#if !isBindEmail>
             $("#goto_bindemail").click(function () {
                 $("#bindEmailModal").modal("show");
             });
@@ -152,15 +152,15 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>实名认证</h5>
-                                    <#if userinfo.realAuth>
+                                    <#if realAuth>
                                         <p>
                                             已认证
-                                            <a href="/realAuth.do">查看</a>
+                                            <a href="realAuth.do">查看</a>
                                         </p>
                                     <#else>
                                          <p>
                                              未认证
-                                             <a href="/realAuth.do">马上认证</a>
+                                             <a href="realAuth.do">马上认证</a>
                                          </p>
                                     </#if>
                                     </div>
@@ -175,7 +175,7 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>手机认证</h5>
-                                    <#if userinfo.isBindPhone>
+                                    <#if isBindPhone>
                                         <p>
                                             已认证
                                             <a href="#">查看</a>
@@ -198,7 +198,7 @@
                                     </div>
                                     <div class="el-accoun-auth-right">
                                         <h5>邮箱认证</h5>
-                                    <#if userinfo.isBindEmail>
+                                    <#if isBindEmail>
                                         <p>
                                             已认证
                                             <a href="#">查看</a>
@@ -241,7 +241,7 @@
     </div>
 </div>
 
-<#if !userinfo.isBindPhone>
+<#if !isBindPhone>
 <div class="modal fade" id="bindPhoneModal" tabindex="-1" role="dialog"
      aria-labelledby="exampleModalLabel">
     <div class="modal-dialog" role="document">
@@ -252,7 +252,7 @@
                 <h4 class="modal-title" id="exampleModalLabel">绑定手机</h4>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" id="bindForm" method="post" action="/bindPhone.do">
+                <form class="form-horizontal" id="bindForm" method="post" action="bindPhone.do">
                     <div class="form-group">
                         <label for="phoneNumber" class="col-sm-2 control-label">手机号:</label>
                         <div class="col-sm-4">
@@ -281,7 +281,7 @@
 </div>
 </#if>
 
-<#if !userinfo.isBindEmail>
+<#if !isBindEmail>
 <div class="modal fade" id="bindEmailModal" tabindex="-1" role="dialog"
      aria-labelledby="bindEmailModalLabel">
     <div class="modal-dialog" role="document">
@@ -293,7 +293,7 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" id="bindEmailForm" method="post"
-                      action="/bindEmail.do">
+                      action="bindEmail.do">
                     <div class="form-group">
                         <label for="email" class="col-sm-2 control-label">邮箱地址:</label>
                         <div class="col-sm-6">

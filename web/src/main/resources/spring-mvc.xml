@@ -69,6 +69,9 @@
         <property name="suffix" value=".ftl" />
         <!-- 配置输出文件的编码类型 -->
         <property name="contentType" value="text/html;charset=UTF-8" />
+
+        <!--要在ftl页面中使用contextPath，需要在viewResolver中做如下配置 在页面中使用${request.contextPath} 就可获得contextPath-->
+        <property name="requestContextAttribute" value="request"/>
     </bean>
 
 </beans>

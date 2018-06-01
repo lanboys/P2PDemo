@@ -32,14 +32,14 @@ class UserServiceImpl : IUserService {
         }
     }
 
-    override fun get(id: Long): Userinfo {
+    override fun getUserinfo(id: Long): Userinfo {
         return userinfoMapper.selectByPrimaryKey(id)
     }
 
     override fun bindPhone(phoneNumber: String, verifyCode: String) {
         sendVerifyCodeService.verifyCode(phoneNumber, verifyCode)
 
-        val ui = get(UserContext.getLogininfo()!!.id)
+        val ui = getUserinfo(UserContext.getLogininfo()!!.id)
         ui.phoneNumber = phoneNumber
         ui.addState(BitStatesUtils.OP_BIND_PHONE)
         update(ui)
