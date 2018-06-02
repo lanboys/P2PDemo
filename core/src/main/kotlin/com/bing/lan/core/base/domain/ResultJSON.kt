@@ -1,4 +1,4 @@
-package com.bing.lan.core.domain
+package com.bing.lan.core.base.domain
 
 /**
  * Created by 蓝兵 on 2018/5/3.

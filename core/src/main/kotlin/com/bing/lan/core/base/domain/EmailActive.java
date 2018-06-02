@@ -17,8 +17,8 @@ import lombok.Setter;
 @Setter
 public class EmailActive extends BaseDomain {
 
-    private String uuidcode;
-    private Long logininfoId;
-    private String email;
-    private Date sendDate;
+    public String uuidcode;
+    public Long logininfoId;
+    public String email;
+    public Date sendDate;
 }

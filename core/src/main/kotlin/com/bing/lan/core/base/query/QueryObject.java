@@ -3,7 +3,6 @@ package com.bing.lan.core.base.query;
 import lombok.Getter;
 import lombok.Setter;
 
-
 @Getter
 @Setter
 public class QueryObject {

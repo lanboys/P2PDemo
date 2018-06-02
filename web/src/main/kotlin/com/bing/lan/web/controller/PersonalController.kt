@@ -5,7 +5,7 @@ import com.bing.lan.core.business.service.IAccountService
 import com.bing.lan.core.business.service.IEmailActiveService
 import com.bing.lan.core.business.service.ISendVerifyCodeService
 import com.bing.lan.core.business.service.IUserService
-import com.bing.lan.core.domain.ResultJSON
+import com.bing.lan.core.base.domain.ResultJSON
 import com.bing.lan.web.annotation.RequiredLogin
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller

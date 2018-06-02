@@ -1,6 +1,7 @@
 package com.bing.lan.core.base.mapper;
 
 import com.bing.lan.core.base.domain.Account;
+
 import java.util.List;
 
 public interface AccountMapper {
